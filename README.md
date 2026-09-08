@@ -52,6 +52,29 @@ zoom servables ; les deux niveaux les plus fins sont exclus par `.gitignore` et
 distribués séparément en archive. La visite reste entièrement navigable, seul le
 zoom maximal est réduit.
 
+## Code d'accès du site publié
+
+Le tour publié sur GitHub Pages attend un code avant d'instancier le lecteur
+krpano. Le but est la **bande passante**, pas la sécurité : tant que le lecteur
+n'a pas démarré, aucune tuile ni aucun XML n'est demandé — or c'est là que passent
+les ~520 Mo. Un visiteur de passage ou un robot ne consomme donc presque rien.
+Une balise `<meta name="robots" content="noindex,nofollow">` écarte en outre les
+moteurs. Un `robots.txt` serait sans effet ici : il n'est lu qu'à la racine du
+domaine, qui n'appartient pas à ce dépôt.
+
+**Ce n'est pas une protection.** Le code est vérifié côté navigateur et tous les
+fichiers restent joignables en direct par leur URL. Pour un accès réellement
+restreint, utiliser l'instance du Pi, derrière oauth2-proxy.
+
+Code par défaut : `applemuseum`. Pour le changer :
+
+```bash
+python3 tools/build_pages.py --drop-top 2 --gate-pass "mon-code"
+```
+
+Le garde-fou n'est appliqué qu'à `pages/` : ni l'archive `site/`, ni l'instance
+du Pi ne le portent.
+
 ## Reconstruire depuis la source
 
 ```sh

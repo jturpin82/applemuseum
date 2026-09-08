@@ -2,3 +2,5 @@
 # Reconstructible avec tools/crawl.py, ou a diffuser en pieces jointes de Release.
 /site/
 *.part
+/pages/
+__pycache__/

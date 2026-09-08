@@ -1,0 +1,1565 @@
+
+    <!DOCTYPE html>
+<html lang="de" class="screen">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>Think different — Apple Museum</title>
+
+                        <link rel="stylesheet" href="../photoswipe/photoswipe.min.css?r11" />
+            <link rel="stylesheet" href="../photoswipe/default-skin.min.css?r11" />
+                <link rel="stylesheet" href="../css/main.min.css?r11" />
+    
+    <link rel="shortcut icon" href="../favicon.ico?r11" />
+    <link rel="shortcut icon" href="../images/icon/favicon.png?r11" />
+    <link rel="apple-touch-icon-precomposed" href="../images/icon/touch-icon.png?r11" />
+    <meta name="msapplication-TileImage" content="/images/icon/touch-icon-w8.png?r11" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+</head>
+<body class="screen__body--bottom-space has-header">
+
+
+    <!-- Modal -->
+    <button type="button" id="modal-close" class="button-unstyled modal__close" title="Close">&times;</button>
+    <div id="modal" class="modal">
+        <div id="modal-dialog" class="modal__dialog">
+            <div id="modal-content" class="modal__content text--center"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+
+            <a href="exhibitions" class="button-unstyled header__button header__button--exhibits pull--left" title="Exhibits">
+    <img src="../images/icons/dots.svg?r11" width="32" height="28" alt="Exhibits" />
+</a>
+    <div class="header__badge">
+        <div class="badge badge--bonus badge--bonus--middle">Think different</div>
+    </div>
+
+        <button type="button" id="menu-overlay-open" class="button-unstyled header__menu-toggle" title="Menu">
+            <span class="header__menu-toggle__line" aria-hidden="true"></span>
+            <span class="header__menu-toggle__line" aria-hidden="true"></span>
+            <span class="header__menu-toggle__line" aria-hidden="true"></span>
+        </button>
+
+        <div id="menu-overlay" class="overlay">
+            <div class="overlay__header search-background">
+                <button type="button" id="search-form-open" class="button-unstyled header__button header__button--search" title="Searching">
+                    <img src="../images/icons/magnifier.svg?r11" width="25" height="25" alt="Search" />
+                </button>
+                <button type="button" id="menu-overlay-close" class="button-unstyled header__button overlay__close pull--right" title="Close">
+                    <img src="../images/icons/close.svg?r11" width="22" height="22" alt="Close" />
+                </button>
+            </div>
+            <form name="appbundle_search" method="get" action="http://193.8.87.58:8088/de/search" id="search-form" class="search">
+    <div class="form-group">
+        <div class="form-reset">
+            <input type="search" id="appbundle_search_searchText" name="appbundle_search[searchText]" required="required" placeholder="Search" class="form__control search__input" autocomplete="off" data-exhibits="[{&quot;name&quot;:&quot;Apple I&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/2#A&quot;},{&quot;name&quot;:&quot;Apple II&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/4#A&quot;},{&quot;name&quot;:&quot;Apple II Bell &amp; Howell&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/6#A&quot;},{&quot;name&quot;:&quot;Apple IIc&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/9#A&quot;},{&quot;name&quot;:&quot;Apple IIe&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/8#A&quot;},{&quot;name&quot;:&quot;Apple IIe Enhanced&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/16#A&quot;},{&quot;name&quot;:&quot;Apple IIe Platinum&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/18#A&quot;},{&quot;name&quot;:&quot;Apple II Gs Woz&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/17#A&quot;},{&quot;name&quot;:&quot;Apple III&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/7#A&quot;},{&quot;name&quot;:&quot;Apple II Plus&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/5#A&quot;},{&quot;name&quot;:&quot;Apple Interactive Television Box&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#H&quot;},{&quot;name&quot;:&quot;Apple Keyboards&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/48#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh Centris 650&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/23#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh Classic&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#E&quot;},{&quot;name&quot;:&quot;Apple Macintosh Classic II&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#F&quot;},{&quot;name&quot;:&quot;Apple Macintosh Color Classic&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#G&quot;},{&quot;name&quot;:&quot;Apple Macintosh IIci&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/19#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh IIsi&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/21#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh LC&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/20#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh LC 575&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#H&quot;},{&quot;name&quot;:&quot;Apple Macintosh Performa 6400&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/27#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh Plus&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#B&quot;},{&quot;name&quot;:&quot;Apple Macintosh Portable&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/29#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook Duo Dock 280c&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#C&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook 100&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook 1400&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#E&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook 145&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#B&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook 2400&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#F&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook 3400&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#G&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook 520&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#D&quot;},{&quot;name&quot;:&quot;Apple Macintosh Quadra 660 AV&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/24#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh Quadra 700&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/22#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh SE&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#C&quot;},{&quot;name&quot;:&quot;Apple Macintosh SE FDHD&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#D&quot;},{&quot;name&quot;:&quot;Apple Macintosh TV&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#I&quot;},{&quot;name&quot;:&quot;Apple Macintosh 128K&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/13#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh 512K&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#A&quot;},{&quot;name&quot;:&quot;Apple Mice&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/49#A&quot;},{&quot;name&quot;:&quot;Apple modems and routers&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#F&quot;},{&quot;name&quot;:&quot;Apple Power Macintosh 7100&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/25#A&quot;},{&quot;name&quot;:&quot;Apple Power Macintosh 7200&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/26#A&quot;},{&quot;name&quot;:&quot;Apple SilentType&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#A&quot;},{&quot;name&quot;:&quot;Apple TV&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#I&quot;},{&quot;name&quot;:&quot;Apple TV 2nd &amp; 3rd generation&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#J&quot;},{&quot;name&quot;:&quot;Color Style Writer 2200&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#I&quot;},{&quot;name&quot;:&quot;eMac&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/38#C&quot;},{&quot;name&quot;:&quot;Graphics Tablet&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/44#A&quot;},{&quot;name&quot;:&quot;G3 All in One&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/35#A&quot;},{&quot;name&quot;:&quot;iBook G3&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/40#A&quot;},{&quot;name&quot;:&quot;iBook G3  \&quot;Firewire\&quot;&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/40#B&quot;},{&quot;name&quot;:&quot;iBook G4&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/40#D&quot;},{&quot;name&quot;:&quot;iMac&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/39#D&quot;},{&quot;name&quot;:&quot;iMac Aluminum 20&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/39#C&quot;},{&quot;name&quot;:&quot;iMac G3&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/38#A&quot;},{&quot;name&quot;:&quot;iMac G3 Blue Dalmatian&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/52#B&quot;},{&quot;name&quot;:&quot;iMac G3 Flower Power&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/52#C&quot;},{&quot;name&quot;:&quot;iMac G3 slot loading&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/38#B&quot;},{&quot;name&quot;:&quot;iMac G4&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/39#A&quot;},{&quot;name&quot;:&quot;iMac G5&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/39#B&quot;},{&quot;name&quot;:&quot;iMac \&quot;Slim\&quot; 21&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/39#E&quot;},{&quot;name&quot;:&quot;Image Writer&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#C&quot;},{&quot;name&quot;:&quot;Image Writer II&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#D&quot;},{&quot;name&quot;:&quot;iPad&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/55#A&quot;},{&quot;name&quot;:&quot;iPad Air&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#E&quot;},{&quot;name&quot;:&quot;iPad Mini&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#F&quot;},{&quot;name&quot;:&quot;iPad Mini 2&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#G&quot;},{&quot;name&quot;:&quot;iPad 1&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#A&quot;},{&quot;name&quot;:&quot;iPad 2&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#B&quot;},{&quot;name&quot;:&quot;iPad 3&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#C&quot;},{&quot;name&quot;:&quot;iPad 4&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#D&quot;},{&quot;name&quot;:&quot;iPhone Prototype&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/53#A&quot;},{&quot;name&quot;:&quot;iPhone 1st&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#A&quot;},{&quot;name&quot;:&quot;iPhone 3G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#B&quot;},{&quot;name&quot;:&quot;iPhone 3GS&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#C&quot;},{&quot;name&quot;:&quot;iPhone 4&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#D&quot;},{&quot;name&quot;:&quot;iPhone 4S&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#E&quot;},{&quot;name&quot;:&quot;iPhone 5&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#F&quot;},{&quot;name&quot;:&quot;iPhone 5c&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#H&quot;},{&quot;name&quot;:&quot;iPhone 5s&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#G&quot;},{&quot;name&quot;:&quot;iPod&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#A&quot;},{&quot;name&quot;:&quot;iPod Beatles Special Edition&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/52#A&quot;},{&quot;name&quot;:&quot;iPod Classic&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#F&quot;},{&quot;name&quot;:&quot;iPod Mini 1G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#L&quot;},{&quot;name&quot;:&quot;iPod Mini 2G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#M&quot;},{&quot;name&quot;:&quot;iPod Nano 1G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#N&quot;},{&quot;name&quot;:&quot;iPod Nano 2G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#O&quot;},{&quot;name&quot;:&quot;iPod Nano 3G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#P&quot;},{&quot;name&quot;:&quot;iPod Nano 4G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#Q&quot;},{&quot;name&quot;:&quot;iPod Nano 5G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#R&quot;},{&quot;name&quot;:&quot;iPod Nano 6G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#S&quot;},{&quot;name&quot;:&quot;iPod Nano 7G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#T&quot;},{&quot;name&quot;:&quot;iPod Red Special Edition.&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/52#D&quot;},{&quot;name&quot;:&quot;iPod Shuffle&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#U&quot;},{&quot;name&quot;:&quot;iPod Shuffle 2G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#V&quot;},{&quot;name&quot;:&quot;iPod Shuffle 3G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#W&quot;},{&quot;name&quot;:&quot;iPod Shuffle 4G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#X&quot;},{&quot;name&quot;:&quot;iPod Shuffle 4G 2012&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#Y&quot;},{&quot;name&quot;:&quot;iPod Touch 1G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#G&quot;},{&quot;name&quot;:&quot;iPod Touch 2G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#H&quot;},{&quot;name&quot;:&quot;iPod Touch 3G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#I&quot;},{&quot;name&quot;:&quot;iPod Touch 4G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#J&quot;},{&quot;name&quot;:&quot;iPod Touch 5G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#K&quot;},{&quot;name&quot;:&quot;iPod U2 Special Edition&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/52#E&quot;},{&quot;name&quot;:&quot;iPod 1&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/50#A&quot;},{&quot;name&quot;:&quot;iSight Camera&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#E&quot;},{&quot;name&quot;:&quot;Jobs left Apple&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/14#A&quot;},{&quot;name&quot;:&quot;Lisa I&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/11#A&quot;},{&quot;name&quot;:&quot;Lisa II&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/12#A&quot;},{&quot;name&quot;:&quot;Lisa Mouse&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/10#A&quot;},{&quot;name&quot;:&quot;MacBook Air&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/41#A&quot;},{&quot;name&quot;:&quot;MacBook Air 13&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/41#D&quot;},{&quot;name&quot;:&quot;MacBook \&quot;Core 2 Duo\&quot;&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/40#E&quot;},{&quot;name&quot;:&quot;MacBook Pro Retina&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/41#E&quot;},{&quot;name&quot;:&quot;MacBook Pro  \&quot;Unibody\&quot; Aluminum&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/41#C&quot;},{&quot;name&quot;:&quot;MacBook \&quot;Unibody\&quot;&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/41#B&quot;},{&quot;name&quot;:&quot;Mac Mini&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/43#B&quot;},{&quot;name&quot;:&quot;Mac Mini 2010&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/43#C&quot;},{&quot;name&quot;:&quot;Message Pad 110&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#B&quot;},{&quot;name&quot;:&quot;Message Pad 120&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#C&quot;},{&quot;name&quot;:&quot;Message Pad 130&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#D&quot;},{&quot;name&quot;:&quot;MessagePad 2000&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#G&quot;},{&quot;name&quot;:&quot;MessagePad 2100&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#H&quot;},{&quot;name&quot;:&quot;MOS IC MCS 6502 microprocessor (Apple I CPU)&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/1#A&quot;},{&quot;name&quot;:&quot;Newton eMate 300&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#F&quot;},{&quot;name&quot;:&quot;Newton Keyboard&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#E&quot;},{&quot;name&quot;:&quot;Newton Message Pad&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#A&quot;},{&quot;name&quot;:&quot;NeXT&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/32#A&quot;},{&quot;name&quot;:&quot;NeXTcube&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/32#B&quot;},{&quot;name&quot;:&quot;NeXTstation&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/32#C&quot;},{&quot;name&quot;:&quot;Personal Laser Writer&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#E&quot;},{&quot;name&quot;:&quot;Personal Laser Writer 300&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#F&quot;},{&quot;name&quot;:&quot;Pixar&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/31#A&quot;},{&quot;name&quot;:&quot;PowerBook G3&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/34#A&quot;},{&quot;name&quot;:&quot;PowerBook G4&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/40#C&quot;},{&quot;name&quot;:&quot;Power CD&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#G&quot;},{&quot;name&quot;:&quot;PowerMac G3 ( Blue&amp;White)&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/42#A&quot;},{&quot;name&quot;:&quot;PowerMac G4&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/42#B&quot;},{&quot;name&quot;:&quot;PowerMac G4 Cube&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/43#A&quot;},{&quot;name&quot;:&quot;PowerMac G4 Quick Silver&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/42#C&quot;},{&quot;name&quot;:&quot;PowerMac G5 ( Mac Pro)&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/43#D&quot;},{&quot;name&quot;:&quot;Power Macintosh 6500&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/33#A&quot;},{&quot;name&quot;:&quot;QuickTake 100&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#A&quot;},{&quot;name&quot;:&quot;QuickTake 150&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#B&quot;},{&quot;name&quot;:&quot;QuickTake 200&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#C&quot;},{&quot;name&quot;:&quot;Steve Jobs\u00b4 Favorite&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/3#A&quot;},{&quot;name&quot;:&quot;Steve Jobs R.I.P.&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/57#A&quot;},{&quot;name&quot;:&quot;Steven Paul Jobs is back!&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/37#A&quot;},{&quot;name&quot;:&quot;Style Writer&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#G&quot;},{&quot;name&quot;:&quot;Style Writer II&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#H&quot;},{&quot;name&quot;:&quot;Style Writer 4500&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#J&quot;},{&quot;name&quot;:&quot;Thermal Transfer Printer&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#B&quot;},{&quot;name&quot;:&quot;Video Phone Kit&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#D&quot;},{&quot;name&quot;:&quot;2nd Generation iPod&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#B&quot;},{&quot;name&quot;:&quot;20th Anniversary Macintosh&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/36#A&quot;},{&quot;name&quot;:&quot;3D PROJECTION -Macintosh 128K.&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/45#A&quot;},{&quot;name&quot;:&quot;3rd Generation iPod&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#C&quot;},{&quot;name&quot;:&quot;4th Generation iPod&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#D&quot;},{&quot;name&quot;:&quot;5th Generation iPod&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#E&quot;}]" />
+            <button type="button" name="reset" id="search-reset" class="form-reset__button" title="Clear">
+                <span class="form-reset__button__icon" aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <input type="button" id="search-form-close" class="button-unstyled search__cancel" value="Cancel" />
+    </div>
+    <div id="search-form-suggestions" class="form-suggestion"></div>
+</form>
+
+            <nav class="overlay__body navigation search-background">
+                <ul class="list--unstyled navigation__list">
+                    <li class="navigation__item">
+                        <a href="about-museum" class="navigation__item__link">About Museum</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="steve-jobs-biography" class="navigation__item__link">Steve Jobs Biography</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="store" class="navigation__item__link">Shop</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="pop-art-gallery" class="navigation__item__link">Pop Art Gallery</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="stevens-food" class="navigation__item__link">Steven’s Food</a>
+                    </li>
+                    <li class="navigation__item navigation__item--collapsible">
+                                                <div id="collapsible-toggle" class="navigation__item__link">
+                            <span class="navigation__item__link__collapse">Deutsch</span>
+                        </div>
+                        <ul id="collapsible-target" class="list--unstyled navigation-secondary">
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../cn/bonus"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        文言
+                                    </a>
+                                </li>
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../cs/bonus"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        Česky
+                                    </a>
+                                </li>
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../en/bonus"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        English
+                                    </a>
+                                </li>
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../es/bonus"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        Español
+                                    </a>
+                                </li>
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../fr/bonus"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        Français
+                                    </a>
+                                </li>
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../it/bonus"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        Italiano
+                                    </a>
+                                </li>
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../ru/bonus"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        Русский
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Main content -->
+    <main class="overlay-background">
+
+        
+    <!-- Poster wall -->
+    <div class="offset-bottom">
+        <div id="celebrity-container" class="grid card-listing">
+
+                            <div class="grid__item card-listing__item visible--tablet-max">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-6" data-celebrity-id="6">
+    <img
+        src="http://193.8.87.58:8088/cache/f/7/a/6/8/f7a68ab53c77f35342e77c40b2b5e4e1da6c3b45.png?r11"
+        srcset="/cache/f/7/a/6/8/f7a68ab53c77f35342e77c40b2b5e4e1da6c3b45.png?r11, /cache/2/7/9/2/b/2792bf57b0e56eaca3d7986742859894b8532e3b.png?r11 2x"
+        alt="Tändzin Gjamccho – The Dalai Lama"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="6">
+        Tändzin Gjamccho – The Dalai Lama
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item visible--tablet-max">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-14" data-celebrity-id="14">
+    <img
+        src="http://193.8.87.58:8088/cache/e/2/4/3/8/e24385c588c2d811696010b201c46abc2cae339c.png?r11"
+        srcset="/cache/e/2/4/3/8/e24385c588c2d811696010b201c46abc2cae339c.png?r11, /cache/8/1/6/a/2/816a2b63261320469be351456246dab5fe6b53ef.png?r11 2x"
+        alt="Edmund Hillary"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="14">
+        Edmund Hillary
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item visible--tablet-max">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-19" data-celebrity-id="19">
+    <img
+        src="http://193.8.87.58:8088/cache/5/b/d/4/4/5bd449b34d305e2b539b62e31da95e801b44da5e.png?r11"
+        srcset="/cache/5/b/d/4/4/5bd449b34d305e2b539b62e31da95e801b44da5e.png?r11, /cache/3/f/8/f/5/3f8f5c7bc273fd73c0013f5fe3f627a694f6b74a.png?r11 2x"
+        alt="Frank Lloyd Wright"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="19">
+        Frank Lloyd Wright
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item visible--tablet-max">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-24" data-celebrity-id="24">
+    <img
+        src="http://193.8.87.58:8088/cache/3/6/e/b/8/36eb89abead37d407b7a94f7c8a7773b1dd8846a.png?r11"
+        srcset="/cache/3/6/e/b/8/36eb89abead37d407b7a94f7c8a7773b1dd8846a.png?r11, /cache/5/4/e/0/3/54e0346f0364f8a6ff80152fe1e07c2ee35181a9.png?r11 2x"
+        alt="Nelson Rolihlahla Mandela"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="24">
+        Nelson Rolihlahla Mandela
+    </span>
+</a>
+                </div>
+            
+            <div class="grid__item grid__item--has-grid visible--tablet-max">
+                <div class="grid">
+                                            <div class="grid__item grid__item--full card-listing__item">
+                                
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-29" data-celebrity-id="29">
+    <img
+        src="http://193.8.87.58:8088/cache/2/3/b/2/c/23b2c44d4914640b8fdeb97162beee457e2c113d.png?r11"
+        srcset="/cache/2/3/b/2/c/23b2c44d4914640b8fdeb97162beee457e2c113d.png?r11, /cache/0/0/4/4/e/0044e78e93d6e1c48ab131a0a7788ccda511e966.png?r11 2x"
+        alt="Steven Spielberg"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="29">
+        Steven Spielberg
+    </span>
+</a>
+                        </div>
+                                            <div class="grid__item grid__item--full card-listing__item">
+                                
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-23" data-celebrity-id="23">
+    <img
+        src="http://193.8.87.58:8088/cache/9/e/8/1/e/9e81ec5363e7c69cbf8ff839424a7c48038d4a31.png?r11"
+        srcset="/cache/9/e/8/1/e/9e81ec5363e7c69cbf8ff839424a7c48038d4a31.png?r11, /cache/9/1/e/5/4/91e54905967c634a24591cfe2be4584cf1a665bd.png?r11 2x"
+        alt="Mohandas Karamchand Gandhi - Mahatma Gandhi"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="23">
+        Mohandas Karamchand Gandhi - Mahatma Gandhi
+    </span>
+</a>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="grid__item grid__item--large grid__item--has-grid visible--desktop-min">
+                <div class="grid">
+                                            <div class="grid__item grid__item--half card-listing__item">
+                                
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-6" data-celebrity-id="6">
+    <img
+        src="http://193.8.87.58:8088/cache/f/7/a/6/8/f7a68ab53c77f35342e77c40b2b5e4e1da6c3b45.png?r11"
+        srcset="/cache/f/7/a/6/8/f7a68ab53c77f35342e77c40b2b5e4e1da6c3b45.png?r11, /cache/2/7/9/2/b/2792bf57b0e56eaca3d7986742859894b8532e3b.png?r11 2x"
+        alt="Tändzin Gjamccho – The Dalai Lama"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="6">
+        Tändzin Gjamccho – The Dalai Lama
+    </span>
+</a>
+                        </div>
+                                            <div class="grid__item grid__item--half card-listing__item">
+                                
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-14" data-celebrity-id="14">
+    <img
+        src="http://193.8.87.58:8088/cache/e/2/4/3/8/e24385c588c2d811696010b201c46abc2cae339c.png?r11"
+        srcset="/cache/e/2/4/3/8/e24385c588c2d811696010b201c46abc2cae339c.png?r11, /cache/8/1/6/a/2/816a2b63261320469be351456246dab5fe6b53ef.png?r11 2x"
+        alt="Edmund Hillary"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="14">
+        Edmund Hillary
+    </span>
+</a>
+                        </div>
+                                            <div class="grid__item grid__item--half card-listing__item">
+                                
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-29" data-celebrity-id="29">
+    <img
+        src="http://193.8.87.58:8088/cache/2/3/b/2/c/23b2c44d4914640b8fdeb97162beee457e2c113d.png?r11"
+        srcset="/cache/2/3/b/2/c/23b2c44d4914640b8fdeb97162beee457e2c113d.png?r11, /cache/0/0/4/4/e/0044e78e93d6e1c48ab131a0a7788ccda511e966.png?r11 2x"
+        alt="Steven Spielberg"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="29">
+        Steven Spielberg
+    </span>
+</a>
+                        </div>
+                                            <div class="grid__item grid__item--half card-listing__item">
+                                
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-26" data-celebrity-id="26">
+    <img
+        src="http://193.8.87.58:8088/cache/f/b/6/9/8/fb6980012c45cd72b29820862e6f903dbad04faf.png?r11"
+        srcset="/cache/f/b/6/9/8/fb6980012c45cd72b29820862e6f903dbad04faf.png?r11, /cache/a/d/d/0/2/add026061a79211d30d4b2dfdbf74524205b1c16.png?r11 2x"
+        alt="Amelia Earhart"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="26">
+        Amelia Earhart
+    </span>
+</a>
+                        </div>
+                                    </div>
+            </div>
+
+            <!-- Steve -->
+            <div class="grid__item grid__item--large card-listing__item">
+                    
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-7" data-celebrity-id="7">
+    <img
+        src="http://193.8.87.58:8088/cache/a/7/f/7/b/a7f7bf3bc726f72e31023eb52987ecefcca3324b.png?r11"
+        srcset="/cache/a/7/f/7/b/a7f7bf3bc726f72e31023eb52987ecefcca3324b.png?r11, /cache/8/9/6/1/0/89610c9da8a2e61ef8d8454bf270fc5095f39577.png?r11 2x"
+        alt="Steven Paul Jobs"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="7">
+        Steven Paul Jobs
+    </span>
+</a>
+            </div>
+
+            <div class="grid__item grid__item--double grid__item--has-grid visible--tablet-max">
+                <div class="grid">
+                                            <div class="grid__item grid__item--full card-listing__item">
+                                
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-26" data-celebrity-id="26">
+    <img
+        src="http://193.8.87.58:8088/cache/f/b/6/9/8/fb6980012c45cd72b29820862e6f903dbad04faf.png?r11"
+        srcset="/cache/f/b/6/9/8/fb6980012c45cd72b29820862e6f903dbad04faf.png?r11, /cache/a/d/d/0/2/add026061a79211d30d4b2dfdbf74524205b1c16.png?r11 2x"
+        alt="Amelia Earhart"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="26">
+        Amelia Earhart
+    </span>
+</a>
+                        </div>
+                                            <div class="grid__item grid__item--full card-listing__item">
+                                
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-31" data-celebrity-id="31">
+    <img
+        src="http://193.8.87.58:8088/cache/4/0/1/e/1/401e1adfaa74950f39c0024a955e1602fcbab075.png?r11"
+        srcset="/cache/4/0/1/e/1/401e1adfaa74950f39c0024a955e1602fcbab075.png?r11, /cache/a/6/0/9/b/a609bc2ad95230251954333624f0b8b7b7ac6ec8.png?r11 2x"
+        alt="Rosa Lee Parks"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="31">
+        Rosa Lee Parks
+    </span>
+</a>
+                        </div>
+                                    </div>
+            </div>
+
+            <div class="grid__item grid__item--large grid__item--has-grid visible--desktop-min">
+                <div class="grid">
+                                            <div class="grid__item grid__item--half card-listing__item">
+                                
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-19" data-celebrity-id="19">
+    <img
+        src="http://193.8.87.58:8088/cache/5/b/d/4/4/5bd449b34d305e2b539b62e31da95e801b44da5e.png?r11"
+        srcset="/cache/5/b/d/4/4/5bd449b34d305e2b539b62e31da95e801b44da5e.png?r11, /cache/3/f/8/f/5/3f8f5c7bc273fd73c0013f5fe3f627a694f6b74a.png?r11 2x"
+        alt="Frank Lloyd Wright"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="19">
+        Frank Lloyd Wright
+    </span>
+</a>
+                        </div>
+                                            <div class="grid__item grid__item--half card-listing__item">
+                                
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-24" data-celebrity-id="24">
+    <img
+        src="http://193.8.87.58:8088/cache/3/6/e/b/8/36eb89abead37d407b7a94f7c8a7773b1dd8846a.png?r11"
+        srcset="/cache/3/6/e/b/8/36eb89abead37d407b7a94f7c8a7773b1dd8846a.png?r11, /cache/5/4/e/0/3/54e0346f0364f8a6ff80152fe1e07c2ee35181a9.png?r11 2x"
+        alt="Nelson Rolihlahla Mandela"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="24">
+        Nelson Rolihlahla Mandela
+    </span>
+</a>
+                        </div>
+                                            <div class="grid__item grid__item--half card-listing__item">
+                                
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-23" data-celebrity-id="23">
+    <img
+        src="http://193.8.87.58:8088/cache/9/e/8/1/e/9e81ec5363e7c69cbf8ff839424a7c48038d4a31.png?r11"
+        srcset="/cache/9/e/8/1/e/9e81ec5363e7c69cbf8ff839424a7c48038d4a31.png?r11, /cache/9/1/e/5/4/91e54905967c634a24591cfe2be4584cf1a665bd.png?r11 2x"
+        alt="Mohandas Karamchand Gandhi - Mahatma Gandhi"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="23">
+        Mohandas Karamchand Gandhi - Mahatma Gandhi
+    </span>
+</a>
+                        </div>
+                                            <div class="grid__item grid__item--half card-listing__item">
+                                
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-31" data-celebrity-id="31">
+    <img
+        src="http://193.8.87.58:8088/cache/4/0/1/e/1/401e1adfaa74950f39c0024a955e1602fcbab075.png?r11"
+        srcset="/cache/4/0/1/e/1/401e1adfaa74950f39c0024a955e1602fcbab075.png?r11, /cache/a/6/0/9/b/a609bc2ad95230251954333624f0b8b7b7ac6ec8.png?r11 2x"
+        alt="Rosa Lee Parks"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="31">
+        Rosa Lee Parks
+    </span>
+</a>
+                        </div>
+                                    </div>
+            </div>
+
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-1" data-celebrity-id="1">
+    <img
+        src="http://193.8.87.58:8088/cache/6/8/6/4/7/68647a9a8498d50400e50e402553fb33f3b39e74.png?r11"
+        srcset="/cache/6/8/6/4/7/68647a9a8498d50400e50e402553fb33f3b39e74.png?r11, /cache/0/b/3/e/8/0b3e892be32b58a4b64ce80eaaefc8eb9ca20fc0.png?r11 2x"
+        alt="Edwin Eugene Aldrin - Buzz Aldrin"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="1">
+        Edwin Eugene Aldrin - Buzz Aldrin
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-25" data-celebrity-id="25">
+    <img
+        src="http://193.8.87.58:8088/cache/0/0/6/3/1/00631dd722a496e6d5b0338031b2b574940f310a.png?r11"
+        srcset="/cache/0/0/6/3/1/00631dd722a496e6d5b0338031b2b574940f310a.png?r11, /cache/c/f/1/2/7/cf1274640276f8b5b19149cc3305f1dce86fde04.png?r11 2x"
+        alt="Alfred Hitchcock"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="25">
+        Alfred Hitchcock
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-3" data-celebrity-id="3">
+    <img
+        src="http://193.8.87.58:8088/cache/0/4/9/1/9/04919807cccc8097beb6addf208416a8197daea0.png?r11"
+        srcset="/cache/0/4/9/1/9/04919807cccc8097beb6addf208416a8197daea0.png?r11, /cache/e/9/4/0/d/e940d03cd2f5c0d59767bd4dfe32f1cc8b730142.png?r11 2x"
+        alt="Albert Einstein"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="3">
+        Albert Einstein
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-5" data-celebrity-id="5">
+    <img
+        src="http://193.8.87.58:8088/cache/2/6/e/a/9/26ea983d2a805aaa0be5dfa364b6eba8abbd4058.png?r11"
+        srcset="/cache/2/6/e/a/9/26ea983d2a805aaa0be5dfa364b6eba8abbd4058.png?r11, /cache/4/c/b/f/f/4cbff7b8198f11052935a52c3ee41a3445d81040.png?r11 2x"
+        alt="James Dean"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="5">
+        James Dean
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-16" data-celebrity-id="16">
+    <img
+        src="http://193.8.87.58:8088/cache/3/1/c/9/2/31c92b132bf4ea8f9017da51698291e96e10e3a6.png?r11"
+        srcset="/cache/3/1/c/9/2/31c92b132bf4ea8f9017da51698291e96e10e3a6.png?r11, /cache/9/7/9/8/9/9798996a8dcaf093b6a8cc8a6f47d6ec5a561611.png?r11 2x"
+        alt="Bob Dylan"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="16">
+        Bob Dylan
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-11" data-celebrity-id="11">
+    <img
+        src="http://193.8.87.58:8088/cache/4/6/2/3/7/462377ff6166eae8207ba9e18b84b8f7ce74de3a.png?r11"
+        srcset="/cache/4/6/2/3/7/462377ff6166eae8207ba9e18b84b8f7ce74de3a.png?r11, /cache/8/4/4/5/e/8445e90673a268cc3cde1f5e1a50268fe5f7ca6d.png?r11 2x"
+        alt="James Dewey Watson"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="11">
+        James Dewey Watson
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-21" data-celebrity-id="21">
+    <img
+        src="http://193.8.87.58:8088/cache/c/9/2/7/4/c9274687ac23d90ef4fddda2d1c022237998fc28.png?r11"
+        srcset="/cache/c/9/2/7/4/c9274687ac23d90ef4fddda2d1c022237998fc28.png?r11, /cache/f/7/e/b/e/f7ebe28e6cdf94ad8ff8496ab04466a2cba0497d.png?r11 2x"
+        alt="Charlie Chaplin"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="21">
+        Charlie Chaplin
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-27" data-celebrity-id="27">
+    <img
+        src="http://193.8.87.58:8088/cache/3/5/d/6/7/35d679632fd96de092fc6af5cca351191647052e.png?r11"
+        srcset="/cache/3/5/d/6/7/35d679632fd96de092fc6af5cca351191647052e.png?r11, /cache/b/1/4/2/c/b142c182ef15eaf66cb1ca1e6eb53851f97a6327.png?r11 2x"
+        alt="Andrew Warhola - Andy Warhol"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="27">
+        Andrew Warhola - Andy Warhol
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-20" data-celebrity-id="20">
+    <img
+        src="http://193.8.87.58:8088/cache/6/1/4/0/9/61409bb79326f08d96b890db2c82c197d3813eab.png?r11"
+        srcset="/cache/6/1/4/0/9/61409bb79326f08d96b890db2c82c197d3813eab.png?r11, /cache/e/4/7/3/2/e47320a2c9c2d0b5c0c1c6adfdfbeea07b5d66fd.png?r11 2x"
+        alt="Salvador Dali"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="20">
+        Salvador Dali
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-10" data-celebrity-id="10">
+    <img
+        src="http://193.8.87.58:8088/cache/5/6/7/3/5/5673525015aa3e9648b56b2f9f96a1c443a4e62f.png?r11"
+        srcset="/cache/5/6/7/3/5/5673525015aa3e9648b56b2f9f96a1c443a4e62f.png?r11, /cache/8/4/4/1/6/84416141248385ea12def8007a821133014035a7.png?r11 2x"
+        alt="Audrey Hepburn"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="10">
+        Audrey Hepburn
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-15" data-celebrity-id="15">
+    <img
+        src="http://193.8.87.58:8088/cache/8/1/a/3/b/81a3be0e00ed41dc62420c97825d805df634ec27.png?r11"
+        srcset="/cache/8/1/a/3/b/81a3be0e00ed41dc62420c97825d805df634ec27.png?r11, /cache/6/0/1/0/0/60100e2bb2411e06de90c9bd52d32f798b12ba1b.png?r11 2x"
+        alt="Maria Callas"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="15">
+        Maria Callas
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-12" data-celebrity-id="12">
+    <img
+        src="http://193.8.87.58:8088/cache/a/6/1/1/6/a61168c3b2abbab543e6f139eedc83b56a92df1c.png?r11"
+        srcset="/cache/a/6/1/1/6/a61168c3b2abbab543e6f139eedc83b56a92df1c.png?r11, /cache/0/0/4/c/a/004ca88bae211694f19e39b87fde348fbdaeea14.png?r11 2x"
+        alt="Muhammad Ali"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="12">
+        Muhammad Ali
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-9" data-celebrity-id="9">
+    <img
+        src="http://193.8.87.58:8088/cache/f/4/c/c/3/f4cc3bed9a92131c6ed451073565b2809ae33b0a.png?r11"
+        srcset="/cache/f/4/c/c/3/f4cc3bed9a92131c6ed451073565b2809ae33b0a.png?r11, /cache/a/4/f/d/1/a4fd176199898b9509b3e4a522611de89d5030df.png?r11 2x"
+        alt="Winston Churchill"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="9">
+        Winston Churchill
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-22" data-celebrity-id="22">
+    <img
+        src="http://193.8.87.58:8088/cache/f/d/7/3/f/fd73fb8877e48645ee1a202572769a0523decf6c.png?r11"
+        srcset="/cache/f/d/7/3/f/fd73fb8877e48645ee1a202572769a0523decf6c.png?r11, /cache/d/4/a/9/0/d4a90f1eff1935ac07f916fb0a0114da21e50e26.png?r11 2x"
+        alt="Martin Luther King Jr."
+    />
+    <span class="card__caption hide" data-celebrity-name-id="22">
+        Martin Luther King Jr.
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-17" data-celebrity-id="17">
+    <img
+        src="http://193.8.87.58:8088/cache/3/3/9/1/6/33916545d4cfe5d499d4599ee76b83caedf5010a.png?r11"
+        srcset="/cache/3/3/9/1/6/33916545d4cfe5d499d4599ee76b83caedf5010a.png?r11, /cache/8/f/9/0/a/8f90a778d11bdc6b7991e227605406f8d6ced978.png?r11 2x"
+        alt="Jack Roosevelt &quot;Jackie&quot; Robinson"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="17">
+        Jack Roosevelt &quot;Jackie&quot; Robinson
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-28" data-celebrity-id="28">
+    <img
+        src="http://193.8.87.58:8088/cache/5/e/c/7/d/5ec7dd73ecbb759dd413ec5b30e2e6475bc6e06e.png?r11"
+        srcset="/cache/5/e/c/7/d/5ec7dd73ecbb759dd413ec5b30e2e6475bc6e06e.png?r11, /cache/4/c/6/f/2/4c6f2676d4113447f51675172061c71cd0fa03e7.png?r11 2x"
+        alt="Frank Sinatra"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="28">
+        Frank Sinatra
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-4" data-celebrity-id="4">
+    <img
+        src="http://193.8.87.58:8088/cache/a/2/b/c/8/a2bc879167a08c4f8f71956b33b8d329e46c471d.png?r11"
+        srcset="/cache/a/2/b/c/8/a2bc879167a08c4f8f71956b33b8d329e46c471d.png?r11, /cache/6/5/d/8/5/65d8532174cfd416d5f7a6912d42e298692dbd9f.png?r11 2x"
+        alt="Jimi Hendrix"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="4">
+        Jimi Hendrix
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-8" data-celebrity-id="8">
+    <img
+        src="http://193.8.87.58:8088/cache/2/f/8/3/f/2f83f158d69407ef0c9cce5638126db82f2bf320.png?r11"
+        srcset="/cache/2/f/8/3/f/2f83f158d69407ef0c9cce5638126db82f2bf320.png?r11, /cache/6/5/6/8/2/65682e63a86d1c0360597479e96171081157d6ee.png?r11 2x"
+        alt="John Lennon &amp; Yoko Ono"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="8">
+        John Lennon &amp; Yoko Ono
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-30" data-celebrity-id="30">
+    <img
+        src="http://193.8.87.58:8088/cache/c/2/3/f/7/c23f777ec2dd7478225bb45e7de0884ae9c022d0.png?r11"
+        srcset="/cache/c/2/3/f/7/c23f777ec2dd7478225bb45e7de0884ae9c022d0.png?r11, /cache/1/c/6/2/3/1c623dce5f8fb4ddfe4073bf2b5fe524f46bdc10.png?r11 2x"
+        alt="Richard Phillips Feynman"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="30">
+        Richard Phillips Feynman
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-2" data-celebrity-id="2">
+    <img
+        src="http://193.8.87.58:8088/cache/3/4/7/f/c/347fc285c934cfeb2ab33967a0bc948c264545ad.png?r11"
+        srcset="/cache/3/4/7/f/c/347fc285c934cfeb2ab33967a0bc948c264545ad.png?r11, /cache/4/3/4/4/b/4344b421b2a41448b492c9a09d72c8d24df692cf.png?r11 2x"
+        alt="Thomas Alva Edison"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="2">
+        Thomas Alva Edison
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-13" data-celebrity-id="13">
+    <img
+        src="http://193.8.87.58:8088/cache/3/4/6/1/e/3461e053a9e9d4d80681633d7e48f986833a570b.png?r11"
+        srcset="/cache/3/4/6/1/e/3461e053a9e9d4d80681633d7e48f986833a570b.png?r11, /cache/d/7/9/7/1/d79715bfd7c073da8e6e04288992daa9e8a4945e.png?r11 2x"
+        alt="Charles Robert Darwin"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="13">
+        Charles Robert Darwin
+    </span>
+</a>
+                </div>
+                            <div class="grid__item card-listing__item">
+                        
+
+<a href="bonus#" class="card" data-toggle="modal" data-modal-content="modal-celebrity-18" data-celebrity-id="18">
+    <img
+        src="http://193.8.87.58:8088/cache/a/3/8/f/6/a38f6d19998cabcaa4c7956e1992507296347af8.png?r11"
+        srcset="/cache/a/3/8/f/6/a38f6d19998cabcaa4c7956e1992507296347af8.png?r11, /cache/e/d/6/5/2/ed652ecd18af53b80356c75aff7c0ace99865c50.png?r11 2x"
+        alt="George Orson Welles"
+    />
+    <span class="card__caption hide" data-celebrity-name-id="18">
+        George Orson Welles
+    </span>
+</a>
+                </div>
+            
+        </div>
+    </div>
+
+
+    <div class="text--center">
+        <a href="thank-you" class="button">Finish the tour</a>
+    </div>
+
+    <!-- Celebrity details -->
+            <div id="modal-celebrity-6" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/4/d/6/8/1/4d6812554f0305c6e0e8c93d0ccc818b43e79181.png?r11"
+        srcset="/cache/4/d/6/8/1/4d6812554f0305c6e0e8c93d0ccc818b43e79181.png?r11, /cache/6/9/d/7/c/69d7c87a68ea54d2f240794cd4ce16936e18c19d.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Tändzin Gjamccho – The Dalai Lama"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Tändzin Gjamccho – The Dalai Lama</h2>
+    <p>
+                    06.06.1935
+                            <br />
+            14th Dalai Lama, Nobel Peace Prize Winner
+            </p>
+            <blockquote>
+            <p>The first step in seeking happiness is learning.</p>
+        </blockquote>
+                <p>
+            Tändzin Gjamccho was the first Dalai Lama to travel to the western world, including the Czech Republic. He’s an active promoter of Buddhism and Tibetan independence. He’s been honoured with a number of awards, including the 1989 Nobel Peace Prize for his advocacy of non-violent resolutions to conflict.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-14" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/8/b/a/5/e/8ba5e3e621ae3ef89f666a5ec8073c5ff9501194.png?r11"
+        srcset="/cache/8/b/a/5/e/8ba5e3e621ae3ef89f666a5ec8073c5ff9501194.png?r11, /cache/4/3/4/5/d/4345d6ab9d4a32065e4a7b6d26d88f53149c2331.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Edmund Hillary"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Edmund Hillary</h2>
+    <p>
+                    20.01.1930 – 01.11.2008
+                            <br />
+            Order of the British Empire
+            </p>
+            <blockquote>
+            <p>Aim high - there is little virtue in easy victory.</p>
+        </blockquote>
+                <p>
+            Sir Edmund Percival Hillary was a New Zealand mountaineer and explorer, famous for being the first man to conquer Mount Everest. Throughout his life he tried to help the people living in the mountainous regions of Nepal. He gave his name to local development projects and helped build twenty-six Nepalese schools, two hospitals, a bridge and an airport.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-19" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/5/c/3/7/e/5c37e4c30c35a0caf940954fd0f1ccb066b0f033.png?r11"
+        srcset="/cache/5/c/3/7/e/5c37e4c30c35a0caf940954fd0f1ccb066b0f033.png?r11, /cache/0/c/b/d/4/0cbd417d8365b59fad72f0bead1f29d36d4857b9.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Frank Lloyd Wright"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Frank Lloyd Wright</h2>
+    <p>
+                    07.06.1867 – 09.04.1959
+                            <br />
+            1941 - Gold Medal award from The Royal Institute of British Architects
+            </p>
+            <blockquote>
+            <p>Just as old wood is best to burn, an old horse is best to ride, an old book is best to read and an old wine is best to drink, old friends are best to wish for.</p>
+        </blockquote>
+                <p>
+            Frank Lloyd Wright (born Frank Lincoln Wright) was one of America’s most important architects. His best known works include the Imperial Hotel in Tokyo, Fallingwater in Pennsylvania, the headquarters of the S.C. Johnson company in Wisconsin and the Guggenheim Museum in New York.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-24" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/1/d/0/f/e/1d0fe257c50aaab8b5bd68b0e47c7c3b964c387f.png?r11"
+        srcset="/cache/1/d/0/f/e/1d0fe257c50aaab8b5bd68b0e47c7c3b964c387f.png?r11, /cache/9/8/5/5/9/9855959fade4da72cd9108e1e213b2d1e817f79b.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Nelson Rolihlahla Mandela"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Nelson Rolihlahla Mandela</h2>
+    <p>
+                    18.07.1918 – 05.12.2013
+                            <br />
+            1993 – Nobel Peace Prize
+            </p>
+            <blockquote>
+            <p>No one is born hating another person because of the colour of his skin, or his background, or his religion. People must learn to hate, and if they can learn to hate, they can be taught to love, for love comes more naturally to the human heart than its opposite.</p>
+        </blockquote>
+                <p>
+            Nelson Rolihlahla Mandela was President of South Africa, and one of the chief opponents of apartheid system, where people of different races were forced to live separately. The regime sent him to prison for 27 years for his struggle against apartheid. In 1988, he was awarded the Sakharov Prize for Freedom of Thought and in 1993 he received the Nobel Peace Prize, along with F.W. de Klerk.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-29" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/8/3/7/6/0/83760609e6d27eeba0a59282cbc4d17b7494afd8.png?r11"
+        srcset="/cache/8/3/7/6/0/83760609e6d27eeba0a59282cbc4d17b7494afd8.png?r11, /cache/5/d/0/8/8/5d088089fb8236ba192401a811b789220f530829.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Steven Spielberg"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Steven Spielberg</h2>
+    <p>
+                    18.12.1946
+                            <br />
+            1993 – Oscars for Best Film and Best Director for Schindler’s List
+            </p>
+            <blockquote>
+            <p>There is a fine line between censorship and good taste and moral responsibility.</p>
+        </blockquote>
+                <p>
+            Steven Allan Spielberg is an American film director. His work maintains a high standard of film-making, focusing on all genres of cinema. His most successful films include Schindler&#039;s List, Jaws, Saving Private Ryan, Indiana Jones, E.T. the Extra-Terrestial and Catch Me If You Can.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-23" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/7/0/c/a/1/70ca1abc4b419f2b9193ff0aa2fa565e7d24d6be.png?r11"
+        srcset="/cache/7/0/c/a/1/70ca1abc4b419f2b9193ff0aa2fa565e7d24d6be.png?r11, /cache/f/f/3/4/d/ff34dc789ff331d7b5b6a1b41015595b5b82ea35.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Mohandas Karamchand Gandhi - Mahatma Gandhi"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Mohandas Karamchand Gandhi - Mahatma Gandhi</h2>
+    <p>
+                    01.10.1869 – 30.01.1948
+                            <br />
+            1930 – Time Magazine’s Person of the Year
+            </p>
+            <blockquote>
+            <p>True love is when we derive greater pleasure from the other person than from ourselves.</p>
+        </blockquote>
+                <p>
+            Mohandas Karamchand Gandhi was one of India’s greatest political and spiritual leaders and the head of the Indian independence movement. He advocated a philosophy of active but non-violent resistance known as the Satyagraha, based on the yogic principles of non-violence, which eventually led India to independence.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-7" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/7/2/5/a/0/725a0d080a8ef566e40682256b03868924603a5f.png?r11"
+        srcset="/cache/7/2/5/a/0/725a0d080a8ef566e40682256b03868924603a5f.png?r11, /cache/3/6/9/b/e/369be6499a795c1943352863665a9b6684c9644a.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Steven Paul Jobs"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Steven Paul Jobs</h2>
+    <p>
+                    24.02.1955 – 05.10.2011
+                            <br />
+            1985 - National Medal of Technology and Innovation, presented by President of the United States Ronald Reagan.                                                                                       2007 - Steve was inducted into The California Hall of Fame.
+            </p>
+            <blockquote>
+            <p>You can&#039;t just ask customers what they want and then try to give that to them. By the time you get it built, they&#039;ll want something new.</p>
+        </blockquote>
+                <p>
+            Steve Paul Jobs, mostly known as Steve Jobs was a visionary founder, executive director and chairman of the Apple board company. He was one of the most significant figures in computer industry. In 1976 Steve Jobs along with Steve Wozniak founded the Apple company, which invented one of the first successful personal computers. He also founded the NeXT company. Under his leadership the Pixar film studious became famous. Steve Jobs became the icon of the 21st century. He established a company, where ideas come together with interesting technology creations. Steve Jobs changed the world.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-26" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/5/4/0/1/5/540154627f3c27692063abb6c2a614777c25a721.png?r11"
+        srcset="/cache/5/4/0/1/5/540154627f3c27692063abb6c2a614777c25a721.png?r11, /cache/7/7/2/9/5/7729532b340fc2af7d08cfec5fe5054640ea9b4b.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Amelia Earhart"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Amelia Earhart</h2>
+    <p>
+                    24.07.1897 – 02.07.1937
+                            <br />
+            1933 - Woman&#039;s speed transcontinental record
+            </p>
+            <blockquote>
+            <p>Some of us have great runways already built for us. If you have one, take off. But if you don&#039;t have one, realize it is your responsibility to grab a shovel and build one for yourself and for those who will follow after you.</p>
+        </blockquote>
+                <p>
+            Amelia Mary Earhart was an American aviator who in 1932 became the first woman to fly solo across the Atlantic Ocean. In 1937, she embarked on a trip around the world with navigator Fred Noonan. The aircraft disappeared with 11,000 kilometers to go. It wasn’t until 2010 that pieces of the plane’s aluminium fuselage were discovered on Nikumaroro atoll in the Kiribati archipelago.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-31" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/a/c/5/3/8/ac538fdf4d8d47ba52ab653c56dc6e40ed6e1293.png?r11"
+        srcset="/cache/a/c/5/3/8/ac538fdf4d8d47ba52ab653c56dc6e40ed6e1293.png?r11, /cache/3/e/0/6/a/3e06a22ee7f2bff85fc09d61c2737035c5aaadd9.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Rosa Lee Parks"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Rosa Lee Parks</h2>
+    <p>
+                    04.02.1913 – 24.10.2005
+                            <br />
+            1996 – Presidential Medal of Freedom
+            </p>
+            <blockquote>
+            <p>I believe we are here on the planet Earth to live, grow up and do what we can to make this world a better place for all people to enjoy freedom.</p>
+        </blockquote>
+                <p>
+            Rosa Lee Parks was one of the best-known civil rights activists in the United States. In December 1955, she was arrested in the southern town of Montgomery for refusing to give up her seat on the bus to a white man. The case led to widespread anti-racism protests and the emergence of the civil rights movement in the United States. She became a symbol of the struggle of black Americans for their rights.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-1" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/f/7/2/6/4/f7264e742087895388af0e84a19fab901abf578b.png?r11"
+        srcset="/cache/f/7/2/6/4/f7264e742087895388af0e84a19fab901abf578b.png?r11, /cache/b/f/f/4/e/bff4e47bbf2903ea2ff9e5be7a1e4eb9abce4be2.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Edwin Eugene Aldrin - Buzz Aldrin"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Edwin Eugene Aldrin - Buzz Aldrin</h2>
+    <p>
+                    20.01.1930
+                            <br />
+            2003 Humanitarian Award from Variety
+            </p>
+            <blockquote>
+            <p>‘Magnificent desolation. There is no place on earth as desolate as what I was viewing in those first moments on the Lunar Surface. Because I realized what I was looking at, towards the horizon and in every direction, had not changed in hundreds, thousands of years’ was how he described walking on the Moon.</p>
+        </blockquote>
+                <p>
+            Edwin Eugene Aldrin Jr., retired USAF Colonel, is a former American military pilot and astronaut. He became the second man to set foot on the Moon. He piloted the lunar module of Apollo 11, the first manned lunar landing in history. He’s also had a relatively rich acting career and has his own star on the Hollywood Walk of Fame. He’s voiced himself in an episode of the Simpsons, appeared (also as himself) in the film Transformers 3, and then again in the series The Big Bang Theory.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-25" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/0/2/f/5/d/02f5d3dc92445a835a52d71c634277662812f80e.png?r11"
+        srcset="/cache/0/2/f/5/d/02f5d3dc92445a835a52d71c634277662812f80e.png?r11, /cache/6/8/5/2/d/6852d48df02a9d5af01d694b25386b31383b7fbe.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Alfred Hitchcock"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Alfred Hitchcock</h2>
+    <p>
+                    13.08.1899 – 29.04.1980
+                            <br />
+            1940 - Oscar for Best Film (Rebecca)
+            </p>
+            <blockquote>
+            <p>Love is a game of cards. Everyone cheats – the men cheat to win, the women cheat so they don’t lose.</p>
+        </blockquote>
+                <p>
+            Sir Alfred Hitchcock was a British-born film director and producer who became famous as a master of thrillers and crime films of high artistic value. His best known movies include Psycho and The Birds. Hitchcock&#039;s films draw heavily on fear and imagination and are known for their humour. They often portray innocent people under circumstances that are beyond their control or understanding.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-3" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/6/f/2/6/1/6f261b8afb2f9fd306c892e7d5f595edc033dd34.png?r11"
+        srcset="/cache/6/f/2/6/1/6f261b8afb2f9fd306c892e7d5f595edc033dd34.png?r11, /cache/a/1/1/8/8/a1188679c07f683b864ee1edb29fa7c2af7edeb1.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Albert Einstein"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Albert Einstein</h2>
+    <p>
+                    13.03.1879 – 18.04.1955
+                            <br />
+            1921 – Nobel Prize in Physics
+            </p>
+            <blockquote>
+            <p>Two things are infinite: the universe and human stupidity; and I&#039;m not sure about the universe.</p>
+        </blockquote>
+                <p>
+            Albert Einstein was a theoretical physicist and one of the greatest scientists of all time. His greatest contributions to physics include his special theory of relativity (1905), the idea of quantization of the electromagnetic field and his explanation of the photoelectric effect (1905), his explanation of Brownian motion (1905) and his general theory of relativity (1915), which still best describes the extent of the universe as a whole. Thanks to this theory, he became known worldwide. In 1921 Einstein was awarded the Nobel Prize in Physics &quot;for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect&quot;. Einstein became a synonym for someone with very high intelligence - simply a genius. In 1999, Time magazine chose him as Person of the Century.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-5" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/5/6/4/0/1/56401e52de53c1ea44e15cc0aecd339b09ce0a5f.png?r11"
+        srcset="/cache/5/6/4/0/1/56401e52de53c1ea44e15cc0aecd339b09ce0a5f.png?r11, /cache/e/a/5/3/e/ea53ee6fade134ae1ddfe708ef9aae392150e42b.png?r11 2x"
+        class="image--responsive center-block"
+        alt="James Dean"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">James Dean</h2>
+    <p>
+                    08.02.1931 – 30.09.1955
+                    </p>
+            <blockquote>
+            <p>Dream as if you&#039;ll live forever. Live as if you&#039;ll die today.</p>
+        </blockquote>
+                <p>
+            James Byron Dean was an American film and television actor. Thanks to the film East of Eden he became a huge movie star. His next role was in the film Rebel Without a Cause. He was twice nominated for an Oscar during his two-year career. He became the first man to be nominated for an Oscar posthumously. He died tragically at the wheel of his Porsche 550 Spyder.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-16" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/b/a/4/4/b/ba44bf5e9c8564159c63ef5ae07dc130015fc05f.png?r11"
+        srcset="/cache/b/a/4/4/b/ba44bf5e9c8564159c63ef5ae07dc130015fc05f.png?r11, /cache/b/7/4/9/1/b7491a673ae013ee19c5c5125dd8ededfc80a9db.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Bob Dylan"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Bob Dylan</h2>
+    <p>
+                    24.05.1941
+                            <br />
+            2012 - U.S. President Barack Obama awarded Dylan a Presidental Medal of Freedom in the White House.
+            </p>
+            <blockquote>
+            <p>When you’re sure of who you are and stick to it firmly, you can make a lot of people confused.</p>
+        </blockquote>
+                <p>
+            Bob Dylan, real name Robert Allen Zimmerman, is an American singer-songwriter, musician and artist who for five decades has significantly influenced popular music and culture. Much of his most famous work comes from the &#039;60s, when he was considered a leading figure of social unrest. Some of his early songs such as &quot;Blowin &#039;in the Wind&quot; and &quot;The Times They Are a-Changin&#039;&quot; were adopted almost as hymns by the US civil rights movement and the anti-war movement. Dylan was one of Steve Jobs favorites singers.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-11" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/6/d/7/b/6/6d7b650674a2d149016c1a88cf5801933dcc3993.png?r11"
+        srcset="/cache/6/d/7/b/6/6d7b650674a2d149016c1a88cf5801933dcc3993.png?r11, /cache/7/1/0/e/e/710eeaa3e06b688835dadd9fec4c26b6423b9887.png?r11 2x"
+        class="image--responsive center-block"
+        alt="James Dewey Watson"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">James Dewey Watson</h2>
+    <p>
+                    06.04.1928
+                            <br />
+            1962 Nobel Prize in Medicine &quot;for discoveries concerning the molecular structure of nucleic acids.”
+            </p>
+            <blockquote>
+            <p>It is essential that you’re slightly useless if you want to accomplish something significant.</p>
+        </blockquote>
+                <p>
+            James Dewey Watson is an American scientist and one of the discoverers of the structure of the DNA molecule. In 1947, he was awarded a BSc in zoology from the University of Chicago. In 1950 he received a PhD in zoology at Indiana University. Together with Francis Crick, from 1951 he used X-ray diffraction to discover the structure of DNA. In particular he studied the role of RNA in protein synthesis. Between 1988 and 1992 he participated in the Human Genome Project.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-21" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/0/f/6/4/4/0f6446dcb0071fbcd7dda04bcbec81575c446b47.png?r11"
+        srcset="/cache/0/f/6/4/4/0f6446dcb0071fbcd7dda04bcbec81575c446b47.png?r11, /cache/2/f/c/e/4/2fce401ff7447a239dca3159c2202e43219e3ac1.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Charlie Chaplin"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Charlie Chaplin</h2>
+    <p>
+                    15.04.1889 – 25.12.1977
+                            <br />
+            1972 – Oscar for Lifetime Achievement
+            </p>
+            <blockquote>
+            <p>Be nice to people on your way up because you might meet them on your way down.</p>
+        </blockquote>
+                <p>
+            Sir Charles Spencer was an English actor, director and screenwriter and one of the 20th century’s most famous filmmakers. He created his films from an idea which became a script, then direction and finally performance in the lead role. His most famous film character was ‘The Tramp’.  Charlie Chaplin was the first person in film to bring true human values to the silver screen.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-27" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/d/9/a/2/3/d9a239605248f1f4e360fb2289c361d189c75b57.png?r11"
+        srcset="/cache/d/9/a/2/3/d9a239605248f1f4e360fb2289c361d189c75b57.png?r11, /cache/2/2/1/e/1/221e1cd24702bc7bb6edb494983a73bd2b1056b8.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Andrew Warhola - Andy Warhol"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Andrew Warhola - Andy Warhol</h2>
+    <p>
+                    06.08.1928 – 22.02.1987
+                            <br />
+            1994 opening of the museum in his hometown.
+            </p>
+            <blockquote>
+            <p>People&#039;s fantasies are what give them problems. If you didn&#039;t have fantasies you wouldn&#039;t have problems because you&#039;d just take whatever was there. But then you wouldn&#039;t have romance, because romance is finding your fantasy in people who don&#039;t have it.</p>
+        </blockquote>
+                <p>
+            Andy Warhol, born Andrew Warhola, was one of the leading figures in American pop art. After studying commercial art, he worked as a designer and illustrator. His most famous works included his cans of Campbell&#039;s soup and his silkscreen portraits of Marilyn Monroe, Elvis Presley and Elizabeth Taylor. He also produced the famous American rock band The Velvet Underground.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-20" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/b/5/7/a/5/b57a5d95f288c6a4ce5c908f72afe15a83e13548.png?r11"
+        srcset="/cache/b/5/7/a/5/b57a5d95f288c6a4ce5c908f72afe15a83e13548.png?r11, /cache/e/6/2/1/5/e6215dc91ea536f0925d905862823952fdb439db.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Salvador Dali"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Salvador Dali</h2>
+    <p>
+                    11.05.1904 – 23.01.1989
+                            <br />
+            Légion d&#039;honneur
+            </p>
+            <blockquote>
+            <p>Real fame – that‘s truly immortality.</p>
+        </blockquote>
+                <p>
+            Salvador Dali was an influential Catalan painter who is known for his surrealist works. He loved everything that was gold and exagerrated and had a passion for luxury and oriental clothing. Dali&#039;s eccentric and theatrical behavior sometimes overshadowed his work. He liked doing unusual things just to attract attention, which both his critics and his admirers occasionally found tiresome.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-10" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/0/b/4/a/0/0b4a01e366e1fd4b4f2a4a2b9ca6d72a90e142cd.png?r11"
+        srcset="/cache/0/b/4/a/0/0b4a01e366e1fd4b4f2a4a2b9ca6d72a90e142cd.png?r11, /cache/f/5/5/e/5/f55e5867498c6d008098d318d3b60b8cb681c6fe.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Audrey Hepburn"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Audrey Hepburn</h2>
+    <p>
+                    04.05.1929 – 20.01.1993
+                            <br />
+            1993 - Jean Hersholt Humanitarian Award for contribution to humanity
+            </p>
+            <blockquote>
+            <p>As you grow older, you will discover that you have two hands, one for helping yourself, the other for helping others.</p>
+        </blockquote>
+                <p>
+            Hepburn entered the spotlight thanks to her role of Princess Anne in the film Roman Holiday, for which she was awarded an Oscar for Best Actress, as well as a BAFTA award and a Golden Globe. Other successful films included War and Peace, Breakfast at Tiffany&#039;s and My Fair Lady. In 1987 she became a UNICEF Goodwill Ambassador.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-15" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/f/6/5/f/6/f65f696e3a474c540d8f004da7841d062502e135.png?r11"
+        srcset="/cache/f/6/5/f/6/f65f696e3a474c540d8f004da7841d062502e135.png?r11, /cache/b/c/5/e/5/bc5e5702d669f9070ef9990003f4041e431554e3.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Maria Callas"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Maria Callas</h2>
+    <p>
+                    02.12.1923 – 16.09.1977
+                            <br />
+            2007 - Grammy Lifetime Achievement Award
+            </p>
+            <blockquote>
+            <p>That is the difference between good teachers and great teachers: good teachers make the best of a pupil’s means, great teachers foresee a pupil’s ends.</p>
+        </blockquote>
+                <p>
+            Maria Callas (christened Anna Maria Sofia Cecilia Kalogeropoulou) was a legendary U.S.-born soprano of Greek origin and one of the most famous opera singers of the 20th century. She displayed her extraordinary vocal range in operas including Verdi&#039;s Aida at the famous La Scala opera house and Bellini&#039;s Norma at the New York Metropolitan Opera.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-12" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/4/9/5/d/b/495db748208e4cba3ef6614f09d1c5d41d057c1f.png?r11"
+        srcset="/cache/4/9/5/d/b/495db748208e4cba3ef6614f09d1c5d41d057c1f.png?r11, /cache/9/d/8/e/5/9d8e537b40e69714d0b560ab22572c3365ce74fb.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Muhammad Ali"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Muhammad Ali</h2>
+    <p>
+                    17.01.1942
+                            <br />
+            1960 Olympic Gold Medal
+            </p>
+            <blockquote>
+            <p>I hated every minute of training, but I said, &#039;Don&#039;t quit. Suffer now and live the rest of your life as a champion.</p>
+        </blockquote>
+                <p>
+            Muhammad Ali (Cassius Marcellus Aladdin Mulligan Montmoreney O´Toole Clay) was one of the greatest boxers of all time, winning three world heavyweight titles. In 1971, he fought the &quot;Match of the Century&quot; against Joe Frazier. Both boxers were undefeated, and the match lasted till the final second. Joe Frazier won it on points. Two years later, the two men faced each other again and this time Ali won.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-9" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/4/6/8/1/e/4681e07c133514a7e2d609e34e9ea2db547a682a.png?r11"
+        srcset="/cache/4/6/8/1/e/4681e07c133514a7e2d609e34e9ea2db547a682a.png?r11, /cache/6/9/e/c/c/69ecccfc654215f26fb556bdfcd9d86ffdba2448.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Winston Churchill"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Winston Churchill</h2>
+    <p>
+                    29.11.1874 – 24.01.1965
+                            <br />
+            1953 – Nobel Prize in Literature
+            </p>
+            <blockquote>
+            <p>Only children, madmen and the very old can afford to tell the truth all the time.</p>
+        </blockquote>
+                <p>
+            Sir Winston Leonard Spencer-Churchill fought the Second World War as Prime Minister of Britain. Despite his unfavourable position, in both personal terms – disgraced amongst colleagues and in society, and in terms of the position of Britain in the first half of the Second World War, he managed to retain his country’s greatness and thus participated in deciding the future world order.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-22" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/2/4/1/7/4/2417424a48a1d0b40c5ecd28b976c780ea744072.png?r11"
+        srcset="/cache/2/4/1/7/4/2417424a48a1d0b40c5ecd28b976c780ea744072.png?r11, /cache/a/5/2/e/e/a52eeb2156eb0ff38431fe51c6f6d69da4d8117e.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Martin Luther King Jr."
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Martin Luther King Jr.</h2>
+    <p>
+                    15.01.1929 – 04.04.1968
+                            <br />
+            1964 – Nobel Peace Prize
+            </p>
+            <blockquote>
+            <p>I have a dream…</p>
+        </blockquote>
+                <p>
+            Dr Martin Luther King Jr was an American Baptist preacher and a leader of the civil rights movement. Without exaggeration his &quot;I have a dream&quot; speech changed the democratic system in the United States and inspired the entire world. He was assassinated in Memphis, Tennessee.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-17" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/5/c/d/6/1/5cd61dccc33ec9e778107c8a46f456249dfe4f55.png?r11"
+        srcset="/cache/5/c/d/6/1/5cd61dccc33ec9e778107c8a46f456249dfe4f55.png?r11, /cache/7/a/a/9/4/7aa9438f2c19c53f138d59b0b0e480dda4071135.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Jack Roosevelt &quot;Jackie&quot; Robinson"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Jack Roosevelt &quot;Jackie&quot; Robinson</h2>
+    <p>
+                    31.01.1919 – 24.10.1972
+                            <br />
+            1984 – Presidential Medal of Freedom
+            </p>
+            <blockquote>
+            <p>Go!</p>
+        </blockquote>
+                <p>
+            Jack Roosevelt &quot;Jackie&quot; Robinson was an American baseball player, the first black man in history to play in Major League Baseball in the U.S. He was known for his struggle against racial segregation in American baseball. He played in the World Series six times and won the championship in 1955. He was also nominated for the MLB All Stars six times in a row. In 1962 he was inducted into the Baseball Hall of Fame. His number 42 jersey is retired from all MLB teams and no one may wear it.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-28" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/8/0/5/d/8/805d8d411bfe5daa1e6650506a50a4fbddc7021a.png?r11"
+        srcset="/cache/8/0/5/d/8/805d8d411bfe5daa1e6650506a50a4fbddc7021a.png?r11, /cache/1/7/a/c/c/17acc3bda5b1f7f7c313508a7ec62f8a9757830a.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Frank Sinatra"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Frank Sinatra</h2>
+    <p>
+                    12.12.1915 – 14.05.1998
+                            <br />
+            1980 – Inducted into the Big Band and Jazz Hall of Fame
+            </p>
+            <blockquote>
+            <p>A guy appreciates experience of women most when they’re leaving him.</p>
+        </blockquote>
+                <p>
+            Francis Albert Sinatra was an American singer and actor and one of the biggest stars of popular music in the 20th century. He won an Oscar, two Golden Globes and 10 Grammys, the John Fitzgerald Kennedy Prize, a gold medal from Congress, the Jean Hersolt Humanitarian Award and dozens of other honours.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-4" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/3/9/8/b/5/398b544e3c19220171b9084ac24f244daeeed5d6.png?r11"
+        srcset="/cache/3/9/8/b/5/398b544e3c19220171b9084ac24f244daeeed5d6.png?r11, /cache/b/1/3/3/c/b133cb3696480d2fdaf7ec436c112c9abd0f7151.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Jimi Hendrix"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Jimi Hendrix</h2>
+    <p>
+                    18.09.1942 – 18.09.1970
+                            <br />
+            1992 – Grammy Lifetime Achievement Award
+            </p>
+            <blockquote>
+            <p>The Blues is easy to play, but hard to feel.</p>
+        </blockquote>
+                <p>
+            Born Johnny Allen Hendrix, this American guitarist, singer and songwriter is considered one of the greatest and most influential guitarists in the history of rock music. After initial success in England, he achieved worldwide fame thanks to his performance at the Monterey Pop Festival in 1967. In 1969 he headlined the Woodstock festival. A year later, he died suddenly at the age of 27. He was awarded a star on the Hollywood Walk of Fame and was credited on the UK Music Hall of Fame.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-8" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/f/c/e/5/a/fce5a1c42f03443bf4a7df9ee4f5793588f7593a.png?r11"
+        srcset="/cache/f/c/e/5/a/fce5a1c42f03443bf4a7df9ee4f5793588f7593a.png?r11, /cache/d/7/7/5/7/d7757b83b838f960c5c3e88b3138546c0acd500f.png?r11 2x"
+        class="image--responsive center-block"
+        alt="John Lennon &amp; Yoko Ono"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">John Lennon &amp; Yoko Ono</h2>
+    <p>
+                    09.10.1940 – 08.12.1980
+                            <br />
+            1991 - Grammy Lifetime Achievement Award 
+            </p>
+            <blockquote>
+            <p>When the worst moment of your life happens, turn and face the sun and all shadows will fall behind you.</p>
+        </blockquote>
+                <p>
+            John Winston Lennon was a British singer and composer and a member of the legendary band The Beatles. He enjoyed considerable success even after leaving the group. He’s known for his relationship with the avant-garde artist Yoko Ono. Lennon was shot dead by a deranged fan he’d given his assassin an autograph earlier in the evening.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-30" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/d/e/2/a/6/de2a61819a81c3a3bafd3e5b264952a5f5e4f465.png?r11"
+        srcset="/cache/d/e/2/a/6/de2a61819a81c3a3bafd3e5b264952a5f5e4f465.png?r11, /cache/e/6/f/4/d/e6f4d70745b5719ba8fe01da99d35127548271e6.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Richard Phillips Feynman"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Richard Phillips Feynman</h2>
+    <p>
+                    11.05.1918 – 15.02.1988
+                            <br />
+            1965 – Nobel Prize in Physics for development of quantum electrodynamics
+            </p>
+            <blockquote>
+            <p>Physics is to mathematics as sex is to masturbation.</p>
+        </blockquote>
+                <p>
+            Richard Phillips Feynman was one of the greatest physicists of the 20th century. During World War II he worked on the Manhattan Project to develop a nuclear bomb. In 1965, he and two other physicists were awarded the Nobel Prize. He developed a technique for describing the reaction of elementary particles providing an alternative perspective on the understanding of quantum mechanics (Feynman’s diagrams).
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-2" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/6/e/8/2/d/6e82d717158a28389f2151072a3dde1f6bb6823c.png?r11"
+        srcset="/cache/6/e/8/2/d/6e82d717158a28389f2151072a3dde1f6bb6823c.png?r11, /cache/c/5/4/5/d/c545d856fc56b7c79da0ffc8e239ed78e74f5829.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Thomas Alva Edison"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Thomas Alva Edison</h2>
+    <p>
+                    10.02.1847 – 18.10.1931
+                            <br />
+            1977 - Grammy Trustees Award
+            </p>
+            <blockquote>
+            <p>The secret of success in life is not to do what pleases us, but to find pleasure in what we do.</p>
+        </blockquote>
+                <p>
+            Thomas Alva Edison was an American inventor and entrepreneur. He took out 1,692 patents in his name. Edison&#039;s most famous inventions included the light bulb, phonograph and the electric meter. He pursued his goals with pragmatism and purpose, with the aim of using his ideas to produce marketable products.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-13" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/e/2/7/5/3/e27532fcbf6a3f54999b7c9e9862575f17327b1e.png?r11"
+        srcset="/cache/e/2/7/5/3/e27532fcbf6a3f54999b7c9e9862575f17327b1e.png?r11, /cache/0/b/6/6/b/0b66bb7b1228ea6eabd49e06537e5a6b86a64569.png?r11 2x"
+        class="image--responsive center-block"
+        alt="Charles Robert Darwin"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">Charles Robert Darwin</h2>
+    <p>
+                    11.02.1809 – 18.04.1882
+                            <br />
+            1853 – Royal Medal
+            </p>
+            <blockquote>
+            <p>Music is older than speech.</p>
+        </blockquote>
+                <p>
+            Charles Robert Darwin was a British naturalist and founder of evolutionary biology. The Theory of Evolution was based on natural selection and choice of sexual partners, in other words the survival and reproduction of individuals better suited to the conditions in which they lived.
+        </p>
+    </div>
+        </div>
+            <div id="modal-celebrity-18" class="hide">
+            
+
+<div class="modal__poster">
+    <img
+        src="http://193.8.87.58:8088/cache/c/0/f/d/2/c0fd243aa27cdef03505d3dec7fdd3a936a6f7a9.png?r11"
+        srcset="/cache/c/0/f/d/2/c0fd243aa27cdef03505d3dec7fdd3a936a6f7a9.png?r11, /cache/d/c/c/c/9/dccc9e19fde69d443bda9589a734b5196199f84a.png?r11 2x"
+        class="image--responsive center-block"
+        alt="George Orson Welles"
+    />
+</div>
+<div class="container text--center">
+    <h2 class="modal__heading">George Orson Welles</h2>
+    <p>
+                    06.05.1915 – 10.10.1985
+                            <br />
+            1942 - Oscar for Citizen Ken
+            </p>
+            <blockquote>
+            <p>A high standard of living means spending money we don’t have on things we don’t need to impress people we don’t like.</p>
+        </blockquote>
+                <p>
+            George Orson Welles was an American film, theatre, radio and television director, screenwriter, actor and producer, awarded by the Oscar Academy of Motion Picture Arts and Sciences for his film Citizen Kane. The film is described as the most innovative in the history of cinema. Welles used new methods in the film, shooting some scenes without editing. He focused on action, working with light and used a so-called worm’s eye view when directing.
+        </p>
+    </div>
+        </div>
+    
+    </main>
+
+    
+            <script src="../photoswipe/photoswipe.min.js?r11"></script>
+        <script src="../photoswipe/photoswipe-ui-default.min.js?r11"></script>
+        <script src="../js/main.min.js?r11"></script>
+            <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-63984403-5', 'auto');
+            ga('send', 'pageview');
+        </script>
+    
+</body>
+</html>

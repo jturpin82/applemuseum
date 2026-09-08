@@ -1,0 +1,4 @@
+# Archive integrale locale (~2,4 Go, 162 684 tuiles) : trop lourde pour le depot.
+# Reconstructible avec tools/crawl.py, ou a diffuser en pieces jointes de Release.
+/site/
+*.part

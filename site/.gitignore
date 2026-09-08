@@ -1,0 +1,8 @@
+# Archive integrale de la visite (~2,7 Go, 163 068 tuiles).
+# Ne doit jamais partir dans le depot : GitHub Pages plafonne a 1 Go et git
+# supporte mal 160 000 fichiers. Reconstructible par tools/crawl.py, et
+# diffusable en pieces jointes de Release si besoin.
+#
+# Tout est ignore ici, sauf ce fichier lui-meme.
+*
+!.gitignore

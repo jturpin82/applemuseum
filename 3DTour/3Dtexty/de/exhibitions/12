@@ -1,0 +1,245 @@
+
+    <!DOCTYPE html>
+<html lang="de" class="screen">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>12 — Apple Museum</title>
+
+                        <link rel="stylesheet" href="../../photoswipe/photoswipe.min.css?r11" />
+            <link rel="stylesheet" href="../../photoswipe/default-skin.min.css?r11" />
+                <link rel="stylesheet" href="../../css/main.min.css?r11" />
+    
+    <link rel="shortcut icon" href="../../favicon.ico?r11" />
+    <link rel="shortcut icon" href="../../images/icon/favicon.png?r11" />
+    <link rel="apple-touch-icon-precomposed" href="../../images/icon/touch-icon.png?r11" />
+    <meta name="msapplication-TileImage" content="/images/icon/touch-icon-w8.png?r11" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+</head>
+<body class="screen__body--bottom-space has-header">
+
+
+    <!-- Modal -->
+    <button type="button" id="modal-close" class="button-unstyled modal__close" title="Close">&times;</button>
+    <div id="modal" class="modal">
+        <div id="modal-dialog" class="modal__dialog">
+            <div id="modal-content" class="modal__content text--center"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+
+            <a href="../exhibitions" class="button-unstyled header__button header__button--exhibits pull--left" title="Exhibits">
+    <img src="../../images/icons/dots.svg?r11" width="32" height="28" alt="Exhibits" />
+</a>
+    <div class="badge badge--middle header__badge">12</div>
+
+        <button type="button" id="menu-overlay-open" class="button-unstyled header__menu-toggle" title="Menu">
+            <span class="header__menu-toggle__line" aria-hidden="true"></span>
+            <span class="header__menu-toggle__line" aria-hidden="true"></span>
+            <span class="header__menu-toggle__line" aria-hidden="true"></span>
+        </button>
+
+        <div id="menu-overlay" class="overlay">
+            <div class="overlay__header search-background">
+                <button type="button" id="search-form-open" class="button-unstyled header__button header__button--search" title="Searching">
+                    <img src="../../images/icons/magnifier.svg?r11" width="25" height="25" alt="Search" />
+                </button>
+                <button type="button" id="menu-overlay-close" class="button-unstyled header__button overlay__close pull--right" title="Close">
+                    <img src="../../images/icons/close.svg?r11" width="22" height="22" alt="Close" />
+                </button>
+            </div>
+            <form name="appbundle_search" method="get" action="../../de/search" id="search-form" class="search">
+    <div class="form-group">
+        <div class="form-reset">
+            <input type="search" id="appbundle_search_searchText" name="appbundle_search[searchText]" required="required" placeholder="Search" class="form__control search__input" autocomplete="off" data-exhibits="[{&quot;name&quot;:&quot;Apple I&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/2#A&quot;},{&quot;name&quot;:&quot;Apple II&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/4#A&quot;},{&quot;name&quot;:&quot;Apple II Bell &amp; Howell&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/6#A&quot;},{&quot;name&quot;:&quot;Apple IIc&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/9#A&quot;},{&quot;name&quot;:&quot;Apple IIe&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/8#A&quot;},{&quot;name&quot;:&quot;Apple IIe Enhanced&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/16#A&quot;},{&quot;name&quot;:&quot;Apple IIe Platinum&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/18#A&quot;},{&quot;name&quot;:&quot;Apple II Gs Woz&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/17#A&quot;},{&quot;name&quot;:&quot;Apple III&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/7#A&quot;},{&quot;name&quot;:&quot;Apple II Plus&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/5#A&quot;},{&quot;name&quot;:&quot;Apple Interactive Television Box&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#H&quot;},{&quot;name&quot;:&quot;Apple Keyboards&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/48#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh Centris 650&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/23#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh Classic&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#E&quot;},{&quot;name&quot;:&quot;Apple Macintosh Classic II&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#F&quot;},{&quot;name&quot;:&quot;Apple Macintosh Color Classic&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#G&quot;},{&quot;name&quot;:&quot;Apple Macintosh IIci&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/19#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh IIsi&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/21#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh LC&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/20#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh LC 575&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#H&quot;},{&quot;name&quot;:&quot;Apple Macintosh Performa 6400&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/27#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh Plus&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#B&quot;},{&quot;name&quot;:&quot;Apple Macintosh Portable&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/29#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook Duo Dock 280c&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#C&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook 100&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook 1400&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#E&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook 145&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#B&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook 2400&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#F&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook 3400&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#G&quot;},{&quot;name&quot;:&quot;Apple Macintosh PowerBook 520&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/30#D&quot;},{&quot;name&quot;:&quot;Apple Macintosh Quadra 660 AV&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/24#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh Quadra 700&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/22#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh SE&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#C&quot;},{&quot;name&quot;:&quot;Apple Macintosh SE FDHD&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#D&quot;},{&quot;name&quot;:&quot;Apple Macintosh TV&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#I&quot;},{&quot;name&quot;:&quot;Apple Macintosh 128K&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/13#A&quot;},{&quot;name&quot;:&quot;Apple Macintosh 512K&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/15#A&quot;},{&quot;name&quot;:&quot;Apple Mice&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/49#A&quot;},{&quot;name&quot;:&quot;Apple modems and routers&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#F&quot;},{&quot;name&quot;:&quot;Apple Power Macintosh 7100&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/25#A&quot;},{&quot;name&quot;:&quot;Apple Power Macintosh 7200&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/26#A&quot;},{&quot;name&quot;:&quot;Apple SilentType&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#A&quot;},{&quot;name&quot;:&quot;Apple TV&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#I&quot;},{&quot;name&quot;:&quot;Apple TV 2nd &amp; 3rd generation&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#J&quot;},{&quot;name&quot;:&quot;Color Style Writer 2200&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#I&quot;},{&quot;name&quot;:&quot;eMac&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/38#C&quot;},{&quot;name&quot;:&quot;Graphics Tablet&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/44#A&quot;},{&quot;name&quot;:&quot;G3 All in One&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/35#A&quot;},{&quot;name&quot;:&quot;iBook G3&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/40#A&quot;},{&quot;name&quot;:&quot;iBook G3  \&quot;Firewire\&quot;&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/40#B&quot;},{&quot;name&quot;:&quot;iBook G4&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/40#D&quot;},{&quot;name&quot;:&quot;iMac&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/39#D&quot;},{&quot;name&quot;:&quot;iMac Aluminum 20&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/39#C&quot;},{&quot;name&quot;:&quot;iMac G3&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/38#A&quot;},{&quot;name&quot;:&quot;iMac G3 Blue Dalmatian&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/52#B&quot;},{&quot;name&quot;:&quot;iMac G3 Flower Power&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/52#C&quot;},{&quot;name&quot;:&quot;iMac G3 slot loading&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/38#B&quot;},{&quot;name&quot;:&quot;iMac G4&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/39#A&quot;},{&quot;name&quot;:&quot;iMac G5&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/39#B&quot;},{&quot;name&quot;:&quot;iMac \&quot;Slim\&quot; 21&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/39#E&quot;},{&quot;name&quot;:&quot;Image Writer&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#C&quot;},{&quot;name&quot;:&quot;Image Writer II&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#D&quot;},{&quot;name&quot;:&quot;iPad&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/55#A&quot;},{&quot;name&quot;:&quot;iPad Air&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#E&quot;},{&quot;name&quot;:&quot;iPad Mini&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#F&quot;},{&quot;name&quot;:&quot;iPad Mini 2&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#G&quot;},{&quot;name&quot;:&quot;iPad 1&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#A&quot;},{&quot;name&quot;:&quot;iPad 2&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#B&quot;},{&quot;name&quot;:&quot;iPad 3&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#C&quot;},{&quot;name&quot;:&quot;iPad 4&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/56#D&quot;},{&quot;name&quot;:&quot;iPhone Prototype&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/53#A&quot;},{&quot;name&quot;:&quot;iPhone 1st&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#A&quot;},{&quot;name&quot;:&quot;iPhone 3G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#B&quot;},{&quot;name&quot;:&quot;iPhone 3GS&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#C&quot;},{&quot;name&quot;:&quot;iPhone 4&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#D&quot;},{&quot;name&quot;:&quot;iPhone 4S&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#E&quot;},{&quot;name&quot;:&quot;iPhone 5&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#F&quot;},{&quot;name&quot;:&quot;iPhone 5c&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#H&quot;},{&quot;name&quot;:&quot;iPhone 5s&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/54#G&quot;},{&quot;name&quot;:&quot;iPod&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#A&quot;},{&quot;name&quot;:&quot;iPod Beatles Special Edition&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/52#A&quot;},{&quot;name&quot;:&quot;iPod Classic&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#F&quot;},{&quot;name&quot;:&quot;iPod Mini 1G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#L&quot;},{&quot;name&quot;:&quot;iPod Mini 2G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#M&quot;},{&quot;name&quot;:&quot;iPod Nano 1G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#N&quot;},{&quot;name&quot;:&quot;iPod Nano 2G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#O&quot;},{&quot;name&quot;:&quot;iPod Nano 3G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#P&quot;},{&quot;name&quot;:&quot;iPod Nano 4G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#Q&quot;},{&quot;name&quot;:&quot;iPod Nano 5G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#R&quot;},{&quot;name&quot;:&quot;iPod Nano 6G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#S&quot;},{&quot;name&quot;:&quot;iPod Nano 7G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#T&quot;},{&quot;name&quot;:&quot;iPod Red Special Edition.&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/52#D&quot;},{&quot;name&quot;:&quot;iPod Shuffle&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#U&quot;},{&quot;name&quot;:&quot;iPod Shuffle 2G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#V&quot;},{&quot;name&quot;:&quot;iPod Shuffle 3G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#W&quot;},{&quot;name&quot;:&quot;iPod Shuffle 4G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#X&quot;},{&quot;name&quot;:&quot;iPod Shuffle 4G 2012&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#Y&quot;},{&quot;name&quot;:&quot;iPod Touch 1G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#G&quot;},{&quot;name&quot;:&quot;iPod Touch 2G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#H&quot;},{&quot;name&quot;:&quot;iPod Touch 3G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#I&quot;},{&quot;name&quot;:&quot;iPod Touch 4G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#J&quot;},{&quot;name&quot;:&quot;iPod Touch 5G&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#K&quot;},{&quot;name&quot;:&quot;iPod U2 Special Edition&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/52#E&quot;},{&quot;name&quot;:&quot;iPod 1&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/50#A&quot;},{&quot;name&quot;:&quot;iSight Camera&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#E&quot;},{&quot;name&quot;:&quot;Jobs left Apple&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/14#A&quot;},{&quot;name&quot;:&quot;Lisa I&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/11#A&quot;},{&quot;name&quot;:&quot;Lisa II&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/12#A&quot;},{&quot;name&quot;:&quot;Lisa Mouse&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/10#A&quot;},{&quot;name&quot;:&quot;MacBook Air&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/41#A&quot;},{&quot;name&quot;:&quot;MacBook Air 13&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/41#D&quot;},{&quot;name&quot;:&quot;MacBook \&quot;Core 2 Duo\&quot;&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/40#E&quot;},{&quot;name&quot;:&quot;MacBook Pro Retina&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/41#E&quot;},{&quot;name&quot;:&quot;MacBook Pro  \&quot;Unibody\&quot; Aluminum&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/41#C&quot;},{&quot;name&quot;:&quot;MacBook \&quot;Unibody\&quot;&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/41#B&quot;},{&quot;name&quot;:&quot;Mac Mini&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/43#B&quot;},{&quot;name&quot;:&quot;Mac Mini 2010&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/43#C&quot;},{&quot;name&quot;:&quot;Message Pad 110&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#B&quot;},{&quot;name&quot;:&quot;Message Pad 120&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#C&quot;},{&quot;name&quot;:&quot;Message Pad 130&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#D&quot;},{&quot;name&quot;:&quot;MessagePad 2000&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#G&quot;},{&quot;name&quot;:&quot;MessagePad 2100&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#H&quot;},{&quot;name&quot;:&quot;MOS IC MCS 6502 microprocessor (Apple I CPU)&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/1#A&quot;},{&quot;name&quot;:&quot;Newton eMate 300&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#F&quot;},{&quot;name&quot;:&quot;Newton Keyboard&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#E&quot;},{&quot;name&quot;:&quot;Newton Message Pad&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/46#A&quot;},{&quot;name&quot;:&quot;NeXT&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/32#A&quot;},{&quot;name&quot;:&quot;NeXTcube&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/32#B&quot;},{&quot;name&quot;:&quot;NeXTstation&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/32#C&quot;},{&quot;name&quot;:&quot;Personal Laser Writer&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#E&quot;},{&quot;name&quot;:&quot;Personal Laser Writer 300&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#F&quot;},{&quot;name&quot;:&quot;Pixar&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/31#A&quot;},{&quot;name&quot;:&quot;PowerBook G3&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/34#A&quot;},{&quot;name&quot;:&quot;PowerBook G4&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/40#C&quot;},{&quot;name&quot;:&quot;Power CD&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#G&quot;},{&quot;name&quot;:&quot;PowerMac G3 ( Blue&amp;White)&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/42#A&quot;},{&quot;name&quot;:&quot;PowerMac G4&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/42#B&quot;},{&quot;name&quot;:&quot;PowerMac G4 Cube&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/43#A&quot;},{&quot;name&quot;:&quot;PowerMac G4 Quick Silver&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/42#C&quot;},{&quot;name&quot;:&quot;PowerMac G5 ( Mac Pro)&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/43#D&quot;},{&quot;name&quot;:&quot;Power Macintosh 6500&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/33#A&quot;},{&quot;name&quot;:&quot;QuickTake 100&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#A&quot;},{&quot;name&quot;:&quot;QuickTake 150&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#B&quot;},{&quot;name&quot;:&quot;QuickTake 200&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#C&quot;},{&quot;name&quot;:&quot;Steve Jobs\u00b4 Favorite&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/3#A&quot;},{&quot;name&quot;:&quot;Steve Jobs R.I.P.&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/57#A&quot;},{&quot;name&quot;:&quot;Steven Paul Jobs is back!&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/37#A&quot;},{&quot;name&quot;:&quot;Style Writer&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#G&quot;},{&quot;name&quot;:&quot;Style Writer II&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#H&quot;},{&quot;name&quot;:&quot;Style Writer 4500&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#J&quot;},{&quot;name&quot;:&quot;Thermal Transfer Printer&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/28#B&quot;},{&quot;name&quot;:&quot;Video Phone Kit&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/47#D&quot;},{&quot;name&quot;:&quot;2nd Generation iPod&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#B&quot;},{&quot;name&quot;:&quot;20th Anniversary Macintosh&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/36#A&quot;},{&quot;name&quot;:&quot;3D PROJECTION -Macintosh 128K.&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/45#A&quot;},{&quot;name&quot;:&quot;3rd Generation iPod&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#C&quot;},{&quot;name&quot;:&quot;4th Generation iPod&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#D&quot;},{&quot;name&quot;:&quot;5th Generation iPod&quot;,&quot;url&quot;:&quot;\/de\/exhibitions\/51#E&quot;}]" />
+            <button type="button" name="reset" id="search-reset" class="form-reset__button" title="Clear">
+                <span class="form-reset__button__icon" aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <input type="button" id="search-form-close" class="button-unstyled search__cancel" value="Cancel" />
+    </div>
+    <div id="search-form-suggestions" class="form-suggestion"></div>
+</form>
+
+            <nav class="overlay__body navigation search-background">
+                <ul class="list--unstyled navigation__list">
+                    <li class="navigation__item">
+                        <a href="../about-museum" class="navigation__item__link">About Museum</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="../steve-jobs-biography" class="navigation__item__link">Steve Jobs Biography</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="../store" class="navigation__item__link">Shop</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="../pop-art-gallery" class="navigation__item__link">Pop Art Gallery</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="../stevens-food" class="navigation__item__link">Steven’s Food</a>
+                    </li>
+                    <li class="navigation__item navigation__item--collapsible">
+                                                <div id="collapsible-toggle" class="navigation__item__link">
+                            <span class="navigation__item__link__collapse">Deutsch</span>
+                        </div>
+                        <ul id="collapsible-target" class="list--unstyled navigation-secondary">
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../../cn/exhibitions/12"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        文言
+                                    </a>
+                                </li>
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../../cs/exponaty/12"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        Česky
+                                    </a>
+                                </li>
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../../en/exhibitions/12"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        English
+                                    </a>
+                                </li>
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../../es/exhibitions/12"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        Español
+                                    </a>
+                                </li>
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../../fr/exhibitions/12"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        Français
+                                    </a>
+                                </li>
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../../it/exhibitions/12"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        Italiano
+                                    </a>
+                                </li>
+                                                            <li class="navigation-secondary__item">
+                                    <a
+                                        href="../../ru/exhibitions/12"
+                                        class="navigation-secondary__item__link"
+                                    >
+                                        Русский
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Main content -->
+    <main class="overlay-background">
+
+                    
+<!-- Description -->
+<div class="container">
+            <p class="offset-top-large">
+            <img
+            src="../../images/exhibition/12/A/title.jpg?r11"
+            class="image--responsive center-block"
+            alt="Lisa II"
+        />
+    </p>
+            <h2>Lisa II</h2>
+        <p>
+        Er ist der Nachfolger von Apple Lisa I, verfügte auch über einen Mausanschluss und einen Anschluss für die  Tastatur, was damals bei den übrigen Computern kein übliches Zubehör war. Nach zwei Jahren wurde er allerdings völlig durch Macintosh ersetzt, der für ein Drittel des Preises verkauft wurde und ein revolutionäres Design aufwies.
+    </p>
+</div>
+
+
+<!-- Video -->
+                                                        
+
+<!-- Properties -->
+<div class="bordered-list">
+            <div class="bordered">
+            <div class="container container--wide">
+                <div class="media media--middle offset-top offset-bottom">
+                    <img src="../../images/icons/diagram-sign.svg?r11" class="media__left icon" aria-hidden="true" alt="" />
+                    1984–1985                </div>
+            </div>
+        </div>
+                <div class="bordered">
+            <div class="container container--wide">
+                <div class="media media--middle offset-top offset-bottom">
+                    <img src="../../images/icons/dollar-sign.svg?r11" class="media__left icon" aria-hidden="true" alt="" />
+                    5.495,00 $
+                </div>
+            </div>
+        </div>
+                <div class="bordered">
+            <div class="container container--wide">
+                <div class="media media--middle offset-top offset-bottom">
+                    <img src="../../images/icons/apple-sign.svg?r11" class="media__left icon" aria-hidden="true" alt="" />
+                    Lisa OS
+                </div>
+            </div>
+        </div>
+                <div class="bordered">
+            <div class="container container--wide">
+                <div class="media media--middle offset-top offset-bottom">
+                    <img src="../../images/icons/chip-sign.svg?r11" class="media__left icon" aria-hidden="true" alt="" />
+
+                    
+                                                                                                                                                                                                                                                                                                                                            
+                    <div>
+                        Motorola 68000, 5 MHz; 5 MB; RAM: 1 MB
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="text--center">
+                    <a
+                id="next-exhibition-link"
+                data-exhibition-id="12"
+                href="13"
+                class="button"
+            >
+                Next item
+            </a>
+            </div>
+
+    </main>
+
+    
+            <script src="../../photoswipe/photoswipe.min.js?r11"></script>
+        <script src="../../photoswipe/photoswipe-ui-default.min.js?r11"></script>
+        <script src="../../js/main.min.js?r11"></script>
+            <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-63984403-5', 'auto');
+            ga('send', 'pageview');
+        </script>
+    
+</body>
+</html>

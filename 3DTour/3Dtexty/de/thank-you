@@ -1,0 +1,126 @@
+
+    <!DOCTYPE html>
+<html lang="de" class="screen">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>Thank you — Apple Museum</title>
+
+                        <link rel="stylesheet" href="../photoswipe/photoswipe.min.css?r11" />
+            <link rel="stylesheet" href="../photoswipe/default-skin.min.css?r11" />
+                <link rel="stylesheet" href="../css/main.min.css?r11" />
+    
+    <link rel="shortcut icon" href="../favicon.ico?r11" />
+    <link rel="shortcut icon" href="../images/icon/favicon.png?r11" />
+    <link rel="apple-touch-icon-precomposed" href="../images/icon/touch-icon.png?r11" />
+    <meta name="msapplication-TileImage" content="/images/icon/touch-icon-w8.png?r11" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+</head>
+<body class="screen__body screen__body--dark screen__body--centered has-footer">
+
+    <main>
+            <div class="container">
+        <div class="text--center offset-top-large offset-bottom-large">
+            <img src="http://193.8.87.58:8088/images/thank_you.svg?r11" width="225" height="70" class="headline__thankyou visible--tablet-max" alt="Thank you for your visit" />
+            <img src="http://193.8.87.58:8088/images/thank_you_horizontal.svg?r11" width="410" height="40" class="headline__thankyou visible--desktop-min" aria-hidden="true" alt="" />
+            <div class="text--limited text--limited--narrow text--larger">Like it? Share it!</div>
+        </div>
+    </div>
+
+    <div class="icon-grid offset-bottom">
+                    <a href="https://foursquare.com/v/applemuseumcom/5620e2d7498efe46ccec6507" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_foursquare.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="http://instagram.com/applemuseumcom" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_instagram.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="https://www.facebook.com/AppleMuseumcom-1592519434334051/?ref=tn_tnmn" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_facebook.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="https://www.twitter.com/applemuseum_com" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_twitter.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="https://plus.google.com/u/0/118331027969837535589" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_google+.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="https://cz.linkedin.com/pub/applemuseum-com/108/294/1b9" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_linkedin.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="https://www.pinterest.com/AppleMuseum_com/" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_pinterest.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="https://www.flickr.com/photos/136570312@N07" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_flickr.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="https://www.youtube.com/channel/UCSy55nNO5vMct002YCHbTzA" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_youtube.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="thank-you#" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_trip-advisor.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="https://www.reddit.com/user/AppleMuseum_com" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_reddit.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="https://vimeo.com/user44371907" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_vimeo.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="http://applemuseumcom.tumblr.com" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_tumblr.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="http://2117291698.qzone.qq.com" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_qzone.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="http://m.ok.ru/profile/566053476479" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_odnoklassniki.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="https://delicious.com/applemuseum.com" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_delicious.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="http://193.8.87.58:8088/de/@applemuseumcom" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_bebo.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="thank-you#" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_mixi.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="thank-you#" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_weibo.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+                    <a href="http://vk.com/public104714259" class="icon-grid__item" target="_blank">
+                <img src="http://193.8.87.58:8088/images/social/social_vkontakte.svg?r11" class="image--responsive" width="100" height="100" alt="" />
+            </a>
+            </div>
+
+    <div class="footer">
+        <div class="text--center">
+            <img src="http://193.8.87.58:8088/images/logotype.svg?r11" width="95" height="16" class="footer__logo" alt="Apple Museum" />
+            © 2015 All rights reserved
+        </div>
+    </div>
+
+    <div class="ribbon overlay-background">
+    <div class="ribbon__stripe"></div>
+    <div class="ribbon__stripe"></div>
+    <div class="ribbon__stripe"></div>
+    <div class="ribbon__stripe"></div>
+    <div class="ribbon__stripe"></div>
+    <div class="ribbon__stripe"></div>
+</div>
+    </main>
+
+            <script src="../photoswipe/photoswipe.min.js?r11"></script>
+        <script src="../photoswipe/photoswipe-ui-default.min.js?r11"></script>
+        <script src="../js/main.min.js?r11"></script>
+            <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-63984403-5', 'auto');
+            ga('send', 'pageview');
+        </script>
+    
+</body>
+</html>

@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="cs_project_title"><![CDATA[AppleMuseum]]></data>
+  <data name="cs_project_author_name"><![CDATA[MISHOX Creative]]></data>
+  <data name="cs_project_author_url"><![CDATA[http://www.mishox.com]]></data>
+
+
+
+  <data name="cs_pano2030_title"><![CDATA[Calculator that saved Apple]]></data>
+  <data name="cs_spotpoint2490_tooltip"><![CDATA[The birth of Apple]]></data>
+  <data name="cs_spotpoint2498_tooltip"><![CDATA[Apple Museum]]></data>
+  <data name="cs_spotpoint2499_tooltip"><![CDATA[iPad exhibition]]></data>
+
+
+  <data name="cs_pano91_title"><![CDATA[The birth of Apple]]></data>
+  <data name="cs_spotpoint98_tooltip"><![CDATA[iPad exhibition]]></data>
+  <data name="cs_spotpoint99_tooltip"><![CDATA[Jobs High School]]></data>
+  <data name="cs_spotpoint144websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/1]]></data>
+  <data name="cs_spotpoint144websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint2497_tooltip"><![CDATA[Calculator that saved Apple]]></data>
+
+
+  <data name="cs_pano5261_title"><![CDATA[Jobs High School]]></data>
+  <data name="cs_spotpoint5266_tooltip"><![CDATA[The birth of Apple]]></data>
+  <data name="cs_spotpoint5267_tooltip"><![CDATA[Apple's first computer]]></data>
+
+
+  <data name="cs_pano93_title"><![CDATA[Apple's first computer]]></data>
+  <data name="cs_spotpoint100_tooltip"><![CDATA[Steve's favorite]]></data>
+  <data name="cs_spotpoint145websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/2]]></data>
+  <data name="cs_spotpoint145websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint2552_tooltip"><![CDATA[Jobs High School]]></data>
+
+
+  <data name="cs_pano94_title"><![CDATA[Steve's favorite]]></data>
+  <data name="cs_spotpoint146websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/3]]></data>
+  <data name="cs_spotpoint146websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint2553_tooltip"><![CDATA[Apple's first computer]]></data>
+  <data name="cs_spotpoint4548_tooltip"><![CDATA[The birth of Apple]]></data>
+
+
+  <data name="cs_pano2037_title"><![CDATA[Prague Street]]></data>
+  <data name="cs_spotpoint2486_tooltip"><![CDATA[Go to Apple Museum]]></data>
+
+
+  <data name="cs_pano6730_title"><![CDATA[Welcome to Apple Museum]]></data>
+  <data name="cs_spotpoint6744_tooltip"><![CDATA[Apple museum]]></data>
+  <data name="cs_spotpoint7443_tooltip"><![CDATA[Prague Street]]></data>
+
+
+  <data name="cs_pano6731_title"><![CDATA[Apple museum]]></data>
+  <data name="cs_spotpoint7444_tooltip"><![CDATA[Reception]]></data>
+  <data name="cs_spotpoint7445_tooltip"><![CDATA[Welcome to Apple Museum]]></data>
+
+
+  <data name="cs_pano6732_title"><![CDATA[Reception]]></data>
+  <data name="cs_spotpoint7446_tooltip"><![CDATA[Apple museum]]></data>
+  <data name="cs_spotpoint7447_tooltip"><![CDATA[Apple Museum]]></data>
+
+
+  <data name="cs_pano6733_title"><![CDATA[Apple Museum]]></data>
+  <data name="cs_spotpoint7448_tooltip"><![CDATA[Steven's food]]></data>
+  <data name="cs_spotpoint7449_tooltip"><![CDATA[Begin the virtual tour of Apple museum]]></data>
+  <data name="cs_spotpoint7450_tooltip"><![CDATA[Stay hungry, Stay foolish]]></data>
+  <data name="cs_spotpoint7451_tooltip"><![CDATA[Reception]]></data>
+
+
+  <data name="cs_pano6735_title"><![CDATA[Steven's food]]></data>
+  <data name="cs_spotpoint7455_tooltip"><![CDATA[Steven's food]]></data>
+  <data name="cs_spotpoint7456_tooltip"><![CDATA[Apple Museum]]></data>
+
+
+  <data name="cs_pano6734_title"><![CDATA[Stay hungry, Stay foolish]]></data>
+  <data name="cs_spotpoint7453_tooltip"><![CDATA[Apple Museum]]></data>
+  <data name="cs_spotpoint7454_tooltip"><![CDATA[Steve Jobs Hall]]></data>
+
+
+  <data name="cs_pano22_title"><![CDATA[iPad exhibition]]></data>
+  <data name="cs_spotpoint26_tooltip"><![CDATA[iPad]]></data>
+  <data name="cs_spotpoint26websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/55]]></data>
+  <data name="cs_spotpoint26websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint27_tooltip"><![CDATA[Computers 1977-1980]]></data>
+  <data name="cs_spotpoint97_tooltip"><![CDATA[Calculator that saved Apple]]></data>
+  <data name="cs_spotpoint594_tooltip"><![CDATA[iPhone]]></data>
+  <data name="cs_spotpoint594websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/54]]></data>
+  <data name="cs_spotpoint594websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint3193_tooltip"><![CDATA[Think Different campaign]]></data>
+  <data name="cs_spotpoint3193websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/cs/web/cs/bonus-en.html]]></data>
+  <data name="cs_spotpoint3193websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano24_title"><![CDATA[iPad exhibition]]></data>
+  <data name="cs_spotpoint76_tooltip"><![CDATA[iPhone exhibition]]></data>
+  <data name="cs_spotpoint105_tooltip"><![CDATA[iPad exhibition]]></data>
+  <data name="cs_spotpoint589websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/54]]></data>
+  <data name="cs_spotpoint589websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint590websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/57]]></data>
+  <data name="cs_spotpoint590websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint591websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/56]]></data>
+  <data name="cs_spotpoint591websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint592websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/55]]></data>
+  <data name="cs_spotpoint592websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint2545_tooltip"><![CDATA[IPad exhibition]]></data>
+  <data name="cs_spotpoint3194websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/cs/web/cs/bonus-en.html]]></data>
+  <data name="cs_spotpoint3194websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano29_title"><![CDATA[iPhone exhibition]]></data>
+  <data name="cs_spotpoint79_tooltip"><![CDATA[iPhone Prototype]]></data>
+  <data name="cs_spotpoint107_tooltip"><![CDATA[iPad exhibition]]></data>
+  <data name="cs_spotpoint586websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/54]]></data>
+  <data name="cs_spotpoint586websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint587websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/53]]></data>
+  <data name="cs_spotpoint587websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint588websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/57]]></data>
+  <data name="cs_spotpoint588websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint3196websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/cs/web/cs/bonus-en.html]]></data>
+  <data name="cs_spotpoint3196websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano30_title"><![CDATA[iPhone Prototype]]></data>
+  <data name="cs_spotpoint82_tooltip"><![CDATA[iPod evolution]]></data>
+  <data name="cs_spotpoint110_tooltip"><![CDATA[iPhone exhibition]]></data>
+  <data name="cs_spotpoint585websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/53]]></data>
+  <data name="cs_spotpoint585websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint3195websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/cs/web/cs/bonus-en.html]]></data>
+  <data name="cs_spotpoint3195websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano31_title"><![CDATA[iPod evolution]]></data>
+  <data name="cs_spotpoint83_tooltip"><![CDATA[iPod exhibition]]></data>
+  <data name="cs_spotpoint580websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/51]]></data>
+  <data name="cs_spotpoint580websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint581websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/50]]></data>
+  <data name="cs_spotpoint581websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint582websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/47]]></data>
+  <data name="cs_spotpoint582websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint583websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/46]]></data>
+  <data name="cs_spotpoint583websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint584websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/52]]></data>
+  <data name="cs_spotpoint584websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint2543_tooltip"><![CDATA[iPhone Prototype]]></data>
+
+
+  <data name="cs_pano35_title"><![CDATA[First iPod exhibition]]></data>
+  <data name="cs_spotpoint84_tooltip"><![CDATA[Input devices evolution]]></data>
+  <data name="cs_spotpoint106_tooltip"><![CDATA[iPod exhibition]]></data>
+  <data name="cs_spotpoint576websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/49]]></data>
+  <data name="cs_spotpoint576websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint577websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/48]]></data>
+  <data name="cs_spotpoint577websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint578websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/50]]></data>
+  <data name="cs_spotpoint578websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint579websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/47]]></data>
+  <data name="cs_spotpoint579websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano36_title"><![CDATA[Input devices evolution]]></data>
+  <data name="cs_spotpoint85_tooltip"><![CDATA[Graphics Tablet ]]></data>
+  <data name="cs_spotpoint113_tooltip"><![CDATA[First iPod exhibition]]></data>
+  <data name="cs_spotpoint573websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/46]]></data>
+  <data name="cs_spotpoint573websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint574websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/48]]></data>
+  <data name="cs_spotpoint574websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint575websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/47]]></data>
+  <data name="cs_spotpoint575websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint3178websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/49]]></data>
+  <data name="cs_spotpoint3178websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano39_title"><![CDATA[Graphics Tablet ]]></data>
+  <data name="cs_spotpoint87_tooltip"><![CDATA[Macbook & Cube exhibition]]></data>
+  <data name="cs_spotpoint116_tooltip"><![CDATA[Input devices evolution]]></data>
+  <data name="cs_spotpoint347websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/44]]></data>
+  <data name="cs_spotpoint347websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint348websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/45]]></data>
+  <data name="cs_spotpoint348websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano47_title"><![CDATA[PowerMac ]]></data>
+  <data name="cs_spotpoint117_tooltip"><![CDATA[Macbook & Cube exhibition]]></data>
+  <data name="cs_spotpoint118_tooltip"><![CDATA[Mackintosh exhibition]]></data>
+  <data name="cs_spotpoint337websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/42]]></data>
+  <data name="cs_spotpoint337websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint338websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/40]]></data>
+  <data name="cs_spotpoint338websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint4823_tooltip"><![CDATA[iMac & PowerBook exhibition]]></data>
+
+
+  <data name="cs_pano48_title"><![CDATA[Macbook & Cube exhibition]]></data>
+  <data name="cs_spotpoint119_tooltip"><![CDATA[PowerMac ]]></data>
+  <data name="cs_spotpoint339websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/43]]></data>
+  <data name="cs_spotpoint339websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint340websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/41]]></data>
+  <data name="cs_spotpoint340websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint1629_tooltip"><![CDATA[iMac & MacBook exhibition]]></data>
+  <data name="cs_spotpoint4825_tooltip"><![CDATA[Graphics Tablet ]]></data>
+
+
+  <data name="cs_pano49_title"><![CDATA[iMac & MacBook exhibition]]></data>
+  <data name="cs_spotpoint121_tooltip"><![CDATA[iMac & PowerBook exhibition]]></data>
+  <data name="cs_spotpoint143_tooltip"><![CDATA[Graphics Tablet ]]></data>
+  <data name="cs_spotpoint343websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/39]]></data>
+  <data name="cs_spotpoint343websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint344websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/41]]></data>
+  <data name="cs_spotpoint344websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint345websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/38]]></data>
+  <data name="cs_spotpoint345websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint346websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/40]]></data>
+  <data name="cs_spotpoint346websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint4822_tooltip"><![CDATA[Macbook & Cube exhibition]]></data>
+
+
+  <data name="cs_pano50_title"><![CDATA[iMac & PowerBook exhibition]]></data>
+  <data name="cs_spotpoint122_tooltip"><![CDATA[iMac & MacBook exhibition]]></data>
+  <data name="cs_spotpoint123_tooltip"><![CDATA[Mackintosh exhibition]]></data>
+  <data name="cs_spotpoint341websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/40]]></data>
+  <data name="cs_spotpoint341websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint342websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/38]]></data>
+  <data name="cs_spotpoint342websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint4824_tooltip"><![CDATA[PowerMac ]]></data>
+
+
+  <data name="cs_pano51_title"><![CDATA[Computers 1977-1980]]></data>
+  <data name="cs_spotpoint130_tooltip"><![CDATA[Computers 1977-1980]]></data>
+  <data name="cs_spotpoint131_tooltip"><![CDATA[Computers 1977-1980]]></data>
+  <data name="cs_spotpoint148websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/5]]></data>
+  <data name="cs_spotpoint148websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint297websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/6]]></data>
+  <data name="cs_spotpoint297websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint298websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/7]]></data>
+  <data name="cs_spotpoint298websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano52_title"><![CDATA[Mac 1997]]></data>
+  <data name="cs_spotpoint125_tooltip"><![CDATA[Mackintosh exhibition]]></data>
+  <data name="cs_spotpoint129_tooltip"><![CDATA[Computers ]]></data>
+  <data name="cs_spotpoint324websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/35]]></data>
+  <data name="cs_spotpoint324websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint325websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/33]]></data>
+  <data name="cs_spotpoint325websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint327websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/36]]></data>
+  <data name="cs_spotpoint327websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint3842websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/34]]></data>
+  <data name="cs_spotpoint3842websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano54_title"><![CDATA[Mackintosh exhibition]]></data>
+  <data name="cs_spotpoint126_tooltip"><![CDATA[PowerMac ]]></data>
+  <data name="cs_spotpoint128_tooltip"><![CDATA[Mac 1997]]></data>
+  <data name="cs_spotpoint330websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/40]]></data>
+  <data name="cs_spotpoint330websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint331websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/38]]></data>
+  <data name="cs_spotpoint331websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint332websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/42]]></data>
+  <data name="cs_spotpoint332websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint333websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/33]]></data>
+  <data name="cs_spotpoint333websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint335websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/36]]></data>
+  <data name="cs_spotpoint335websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint336websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/35]]></data>
+  <data name="cs_spotpoint336websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint4821_tooltip"><![CDATA[iMac & PowerBook exhibition]]></data>
+
+
+  <data name="cs_pano63_title"><![CDATA[Printers & PowerBooks]]></data>
+  <data name="cs_spotpoint132_tooltip"><![CDATA[Professional computers]]></data>
+  <data name="cs_spotpoint318websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/26]]></data>
+  <data name="cs_spotpoint318websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint319websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/27]]></data>
+  <data name="cs_spotpoint319websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint320websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/28]]></data>
+  <data name="cs_spotpoint320websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint321websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/29]]></data>
+  <data name="cs_spotpoint321websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint322websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/30]]></data>
+  <data name="cs_spotpoint322websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano64_title"><![CDATA[Professional computers]]></data>
+  <data name="cs_spotpoint133_tooltip"><![CDATA[Printers & PowerBooks]]></data>
+  <data name="cs_spotpoint134_tooltip"><![CDATA[Macintosh family 1984-1994]]></data>
+  <data name="cs_spotpoint314websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/24]]></data>
+  <data name="cs_spotpoint314websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint315websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/25]]></data>
+  <data name="cs_spotpoint315websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint316websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/30]]></data>
+  <data name="cs_spotpoint316websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint317websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/29]]></data>
+  <data name="cs_spotpoint317websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano65_title"><![CDATA[Macintosh family 1984-1994]]></data>
+  <data name="cs_spotpoint135_tooltip"><![CDATA[Pixar]]></data>
+  <data name="cs_spotpoint136_tooltip"><![CDATA[Macintosh family 1984-1994]]></data>
+  <data name="cs_spotpoint137_tooltip"><![CDATA[Professional computers]]></data>
+  <data name="cs_spotpoint312websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/22]]></data>
+  <data name="cs_spotpoint312websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint313websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/23]]></data>
+  <data name="cs_spotpoint313websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano66_title"><![CDATA[Macintosh family 1984-1994]]></data>
+  <data name="cs_spotpoint138_tooltip"><![CDATA[Macintosh family 1984-1994]]></data>
+  <data name="cs_spotpoint139_tooltip"><![CDATA[Macintosh family 1984-1994]]></data>
+  <data name="cs_spotpoint308websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/18]]></data>
+  <data name="cs_spotpoint308websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint309websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/19]]></data>
+  <data name="cs_spotpoint309websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint310websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/20]]></data>
+  <data name="cs_spotpoint310websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint311websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/21]]></data>
+  <data name="cs_spotpoint311websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano67_title"><![CDATA[Macintosh family 1984-1994]]></data>
+  <data name="cs_spotpoint141_tooltip"><![CDATA[Macintosh family 1984-1994]]></data>
+  <data name="cs_spotpoint142_tooltip"><![CDATA[NeXT & Macintosh 128k]]></data>
+  <data name="cs_spotpoint304websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/31]]></data>
+  <data name="cs_spotpoint304websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint305websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/15]]></data>
+  <data name="cs_spotpoint305websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint306websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/17]]></data>
+  <data name="cs_spotpoint306websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint307websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/16]]></data>
+  <data name="cs_spotpoint307websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano68_title"><![CDATA[NeXT & Macintosh 128k]]></data>
+  <data name="cs_spotpoint299websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/10]]></data>
+  <data name="cs_spotpoint299websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint300websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/11]]></data>
+  <data name="cs_spotpoint300websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint301websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/12]]></data>
+  <data name="cs_spotpoint301websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint302websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/13]]></data>
+  <data name="cs_spotpoint302websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint303websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/32]]></data>
+  <data name="cs_spotpoint303websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint595_tooltip"><![CDATA[Macintosh family 1984-1994]]></data>
+  <data name="cs_spotpoint596_tooltip"><![CDATA[Computers ]]></data>
+
+
+  <data name="cs_pano2017_title"><![CDATA[IPad exhibition]]></data>
+  <data name="cs_spotpoint2546_tooltip"><![CDATA[iPad exhibition]]></data>
+  <data name="cs_spotpoint2547_tooltip"><![CDATA[iPhone exhibition]]></data>
+  <data name="cs_spotpoint3171websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/56]]></data>
+  <data name="cs_spotpoint3171websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint3172websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/54]]></data>
+  <data name="cs_spotpoint3172websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano2018_title"><![CDATA[iPhone exhibition]]></data>
+  <data name="cs_spotpoint2548_tooltip"><![CDATA[iPad - End of tour :)]]></data>
+  <data name="cs_spotpoint2549_tooltip"><![CDATA[IPad exhibition]]></data>
+  <data name="cs_spotpoint3173websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/1]]></data>
+  <data name="cs_spotpoint3173websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint3175websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/53]]></data>
+  <data name="cs_spotpoint3175websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano2019_title"><![CDATA[iPad - End of tour :)]]></data>
+  <data name="cs_spotpoint2550_tooltip"><![CDATA[Prague Street]]></data>
+  <data name="cs_spotpoint2551_tooltip"><![CDATA[iPhone exhibition]]></data>
+  <data name="cs_spotpoint3174websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/54]]></data>
+  <data name="cs_spotpoint3174websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano2020_title"><![CDATA[Computers 1977-1980]]></data>
+  <data name="cs_spotpoint2500_tooltip"><![CDATA[iPad exhibition]]></data>
+  <data name="cs_spotpoint2554_tooltip"><![CDATA[Computers 1977-1980]]></data>
+  <data name="cs_spotpoint3184websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/4]]></data>
+  <data name="cs_spotpoint3184websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint3185websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/5]]></data>
+  <data name="cs_spotpoint3185websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint3186websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/6]]></data>
+  <data name="cs_spotpoint3186websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano2025_title"><![CDATA[Computers 1977-1980]]></data>
+  <data name="cs_spotpoint2503_tooltip"><![CDATA[Computers 1977-1980]]></data>
+  <data name="cs_spotpoint2504_tooltip"><![CDATA[NeXT & Macintosh 128k]]></data>
+  <data name="cs_spotpoint3187websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/8]]></data>
+  <data name="cs_spotpoint3187websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint3188websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/9]]></data>
+  <data name="cs_spotpoint3188websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano2026_title"><![CDATA[Pixar]]></data>
+  <data name="cs_spotpoint2507_tooltip"><![CDATA[NeXT & Macintosh 128k]]></data>
+  <data name="cs_spotpoint2508_tooltip"><![CDATA[Macintosh family 1984-1994]]></data>
+
+
+  <data name="cs_pano2046_title"><![CDATA[Garden]]></data>
+  <data name="cs_spotpoint2478_tooltip"><![CDATA[Steven's food]]></data>
+
+
+  <data name="cs_pano2047_title"><![CDATA[Steve Jobs Hall]]></data>
+  <data name="cs_spotpoint2470_tooltip"><![CDATA[iPad station]]></data>
+  <data name="cs_spotpoint2479_tooltip"><![CDATA[Stay hungry, Stay foolish]]></data>
+
+
+  <data name="cs_pano2048_title"><![CDATA[iPad stations]]></data>
+  <data name="cs_spotpoint2471_tooltip"><![CDATA[Steve Jobs Hall]]></data>
+
+
+  <data name="cs_pano2028_title"><![CDATA[NeXT & Macintosh 128k]]></data>
+  <data name="cs_spotpoint2509_tooltip"><![CDATA[Pixar]]></data>
+  <data name="cs_spotpoint2510_tooltip"><![CDATA[Mac 1997]]></data>
+  <data name="cs_spotpoint3191websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/32]]></data>
+  <data name="cs_spotpoint3191websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint3192websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/13]]></data>
+  <data name="cs_spotpoint3192websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano2513_title"><![CDATA[Computers ]]></data>
+  <data name="cs_spotpoint2515_tooltip"><![CDATA[NeXT & Macintosh 128k]]></data>
+  <data name="cs_spotpoint2538_tooltip"><![CDATA[Mac 1997]]></data>
+  <data name="cs_spotpoint3189websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/8]]></data>
+  <data name="cs_spotpoint3189websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint3190websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/9]]></data>
+  <data name="cs_spotpoint3190websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano2049_title"><![CDATA[iPad station]]></data>
+  <data name="cs_spotpoint2472_tooltip"><![CDATA[Steve Jobs Hall]]></data>
+  <data name="cs_spotpoint2473_tooltip"><![CDATA[iPad stations]]></data>
+
+
+  <data name="cs_pano2027_title"><![CDATA[iPod exhibition]]></data>
+  <data name="cs_spotpoint2541_tooltip"><![CDATA[First iPod exhibition]]></data>
+  <data name="cs_spotpoint2542_tooltip"><![CDATA[iPod evolution]]></data>
+  <data name="cs_spotpoint3176websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/50]]></data>
+  <data name="cs_spotpoint3176websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="cs_spotpoint3177websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./3Dtexty/es/exhibitions/51]]></data>
+  <data name="cs_spotpoint3177websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+
+
+  <data name="cs_pano6736_title"><![CDATA[Steven's food]]></data>
+  <data name="cs_spotpoint7457_tooltip"><![CDATA[Steven's food]]></data>
+  <data name="cs_spotpoint7458_tooltip"><![CDATA[Garden]]></data>
+
+
+	<data name="cs_spotmap8115_tooltip"><![CDATA[Prague Street]]></data>
+	<data name="cs_spotmap8116_tooltip"><![CDATA[Garden]]></data>
+	<data name="cs_spotmap8117_tooltip"><![CDATA[Steve Jobs Hall]]></data>
+	<data name="cs_spotmap8118_tooltip"><![CDATA[iPad stations]]></data>
+	<data name="cs_spotmap8119_tooltip"><![CDATA[iPad station]]></data>
+
+
+	<data name="cs_project_floor_title"><![CDATA[AppleMuseum]]></data>
+	<data name="cs_spotmap1385_tooltip"><![CDATA[The birth of Apple]]></data>
+	<data name="cs_spotmap1386_tooltip"><![CDATA[Apple's first computer]]></data>
+	<data name="cs_spotmap1387_tooltip"><![CDATA[Steve's favorite]]></data>
+	<data name="cs_spotmap1388_tooltip"><![CDATA[iPad exhibition]]></data>
+	<data name="cs_spotmap1389_tooltip"><![CDATA[iPhone exhibition]]></data>
+	<data name="cs_spotmap1390_tooltip"><![CDATA[iPad exhibition]]></data>
+	<data name="cs_spotmap1391_tooltip"><![CDATA[iPod evolution]]></data>
+	<data name="cs_spotmap1392_tooltip"><![CDATA[First iPod exhibition]]></data>
+	<data name="cs_spotmap1393_tooltip"><![CDATA[Input devices evolution]]></data>
+	<data name="cs_spotmap1395_tooltip"><![CDATA[Computers 1977-1980]]></data>
+	<data name="cs_spotmap1396_tooltip"><![CDATA[Mac 1997]]></data>
+	<data name="cs_spotmap1397_tooltip"><![CDATA[Mackintosh exhibition]]></data>
+	<data name="cs_spotmap1398_tooltip"><![CDATA[iMac & PowerBook exhibition]]></data>
+	<data name="cs_spotmap1399_tooltip"><![CDATA[iMac & MacBook exhibition]]></data>
+	<data name="cs_spotmap1400_tooltip"><![CDATA[Macbook & Cube exhibition]]></data>
+	<data name="cs_spotmap1401_tooltip"><![CDATA[PowerMac ]]></data>
+	<data name="cs_spotmap1402_tooltip"><![CDATA[NeXT & Macintosh 128k]]></data>
+	<data name="cs_spotmap1403_tooltip"><![CDATA[Macintosh family 1984-1994]]></data>
+	<data name="cs_spotmap1404_tooltip"><![CDATA[Macintosh family 1984-1994]]></data>
+	<data name="cs_spotmap1405_tooltip"><![CDATA[Macintosh family 1984-1994]]></data>
+	<data name="cs_spotmap1406_tooltip"><![CDATA[Professional computers]]></data>
+	<data name="cs_spotmap1407_tooltip"><![CDATA[Printers & PowerBooks]]></data>
+	<data name="cs_spotmap2557_tooltip"><![CDATA[IPad exhibition]]></data>
+	<data name="cs_spotmap2558_tooltip"><![CDATA[iPhone exhibition]]></data>
+	<data name="cs_spotmap2559_tooltip"><![CDATA[iPad - End of tour :)]]></data>
+	<data name="cs_spotmap2560_tooltip"><![CDATA[Computers 1977-1980]]></data>
+	<data name="cs_spotmap2561_tooltip"><![CDATA[Computers 1977-1980]]></data>
+	<data name="cs_spotmap2562_tooltip"><![CDATA[NeXT & Macintosh 128k]]></data>
+	<data name="cs_spotmap2563_tooltip"><![CDATA[Pixar]]></data>
+	<data name="cs_spotmap2564_tooltip"><![CDATA[iPod exhibition]]></data>
+	<data name="cs_spotmap2565_tooltip"><![CDATA[Calculator that saved Apple]]></data>
+	<data name="cs_spotmap2566_tooltip"><![CDATA[Jobs High School]]></data>
+	<data name="cs_spotmap2567_tooltip"><![CDATA[Prague Street]]></data>
+	<data name="cs_spotmap2569_tooltip"><![CDATA[Apple museum]]></data>
+	<data name="cs_spotmap2570_tooltip"><![CDATA[Apple museum]]></data>
+	<data name="cs_spotmap2571_tooltip"><![CDATA[Reception]]></data>
+	<data name="cs_spotmap2572_tooltip"><![CDATA[Apple Museum]]></data>
+	<data name="cs_spotmap2573_tooltip"><![CDATA[Steven's food bar]]></data>
+	<data name="cs_spotmap2574_tooltip"><![CDATA[Steven's food bar]]></data>
+	<data name="cs_spotmap2575_tooltip"><![CDATA[Garden]]></data>
+	<data name="cs_spotmap2576_tooltip"><![CDATA[Steve Jobs Hall]]></data>
+	<data name="cs_spotmap2577_tooltip"><![CDATA[iPad station]]></data>
+	<data name="cs_spotmap2578_tooltip"><![CDATA[iPad stations]]></data>
+	<data name="cs_spotmap2580_tooltip"><![CDATA[Graphics Tablet ]]></data>
+	<data name="cs_spotmap5272_tooltip"><![CDATA[Stay hungry, Stay foolish]]></data>
+
+
+  <data name="cs_websiteViewerclose_text"><![CDATA[]]></data>
+  <data name="cs_contextmenuopenFsLabel"><![CDATA[Enter Fullscreen]]></data>
+  <data name="cs_contextmenucloseFsLabel"><![CDATA[Exit Fullscreen]]></data>
+  <data name="cs_contextmenunormallabel"><![CDATA[Normal View]]></data>
+  <data name="cs_controlBar_imoveLeftTip"><![CDATA[Move left]]></data>
+  <data name="cs_controlBar_imoveRightTip"><![CDATA[Move right]]></data>
+  <data name="cs_controlBar_imoveUpTip"><![CDATA[Move up]]></data>
+  <data name="cs_controlBar_imoveDownTip"><![CDATA[Move down]]></data>
+  <data name="cs_controlBar_isoundsOnTip"><![CDATA[Start sounds]]></data>
+  <data name="cs_controlBar_isoundsOffTip"><![CDATA[Stop sounds]]></data>
+  <data name="cs_controlBar_ienterVRTip"><![CDATA[VR mode]]></data>
+  <data name="cs_controlBar_ienterVRNotTip"><![CDATA[VR mode is unavailable]]></data>
+  <data name="cs_controlBar_idisplayControlsTip"><![CDATA[Show controls]]></data>
+  <data name="cs_controlBar_ihideControlsTip"><![CDATA[Hide controls]]></data>
+  <data name="cs_togglebutton1firsttooltip"><![CDATA[Fullscreen mode!]]></data>
+  <data name="cs_togglebutton1secondtooltip"><![CDATA[Fullscreen mode!]]></data>
+  <data name="cs_buttontooltip"><![CDATA[Map of Museum ]]></data>
+  <data name="cs_button1tooltip"><![CDATA[]]></data>
+  <data name="cs_button1openurlwebsiteurl"><![CDATA[http://www.fotografie-firem.com]]></data>
+  <data name="cs_togglebutton2firsttooltip"><![CDATA[Gyro-Controls OFF]]></data>
+  <data name="cs_togglebutton2secondtooltip"><![CDATA[Gyro-Controls ON]]></data>
+
+
+  <data name="cs_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
+  <data name="cs_vr_setup_advanced"><![CDATA[ADVANCED SETTINGS]]></data>
+  <data name="cs_vr_setup_title"><![CDATA[WEB VR SETTINGS]]></data>
+  <data name="cs_vr_setup_dvn1"><![CDATA[Device:]]></data>
+  <data name="cs_vr_setup_siz1"><![CDATA[Screen size:]]></data>
+  <data name="cs_vr_setup_ipd1"><![CDATA[IPD:]]></data>
+  <data name="cs_vr_setup_hmd1"><![CDATA[HMD:]]></data>
+  <data name="cs_vr_setup_hmd3"><![CDATA[Customize]]></data>
+  <data name="cs_vr_setup_cal"><![CDATA[Calibrate gyroscope]]></data>
+  <data name="cs_vr_setup_sav"><![CDATA[SAVE]]></data>
+  <data name="cs_vr_setup_rst"><![CDATA[RESET]]></data>
+  <data name="cs_vr_setup_simple"><![CDATA[SIMPLE]]></data>
+  <data name="cs_vr_setup_cls"><![CDATA[CLOSE]]></data>
+  <data name="cs_vr_setup_m31"><![CDATA[HMD SETTINGS]]></data>
+  <data name="cs_vr_setup_fov1"><![CDATA[FOV:]]></data>
+  <data name="cs_vr_setup_dst1"><![CDATA[Distortion:]]></data>
+  <data name="cs_vr_setup_d2tx"><![CDATA[Distortion 2:]]></data>
+  <data name="cs_vr_setup_vig1"><![CDATA[Vignette:]]></data>
+  <data name="cs_vr_setup_cac1"><![CDATA[Chromatic aberration:]]></data>
+  <data name="cs_vr_setup_olp1"><![CDATA[Overlap:]]></data>
+  <data name="cs_vr_setup_m35"><![CDATA[RETURN]]></data>
+  <data name="cs_vr_setup_cb1"><![CDATA[GYROSCOPE]]></data>
+  <data name="cs_vr_setup_cb2"><![CDATA[Place the device on a flat and[br]stable surface and tab CALIBRATE[br]to correct a gyroscope drifting.]]></data>
+  <data name="cs_vr_setup_cb3"><![CDATA[CALIBRATE]]></data>
+  <data name="cs_vr_setup_cb4"><![CDATA[RESET]]></data>
+  <data name="cs_vr_setup_cb5"><![CDATA[RETURN]]></data>
+  <data name="cs_vr_setup_cb6"><![CDATA[Calibrating...]]></data>
+  <data name="cs_vr_setup_cb7"><![CDATA[Successful calibration]]></data>
+  <data name="cs_vr_setup_cb8"><![CDATA[Calibration failed]]></data>
+  <data name="cs_vr_setup_unavailable"><![CDATA[VR mode[br]is unavailable on your device]]></data>
+
+
+  <data name="cs_project_description"><![CDATA[AppleMuseum<div><br></div>]]></data>
+
+
+
+
+
+  <data name="cs_pano91_description"><![CDATA[The birth of Apple]]></data>
+
+
+
+
+
+
+  <data name="cs_pano93_description"><![CDATA[Apple's first computer]]></data>
+
+
+
+  <data name="cs_pano94_description"><![CDATA[Steve's favorite]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <data name="cs_pano22_description"><![CDATA[iPad exhibition]]></data>
+
+
+
+  <data name="cs_pano24_description"><![CDATA[iPad exhibition]]></data>
+
+
+
+  <data name="cs_pano29_description"><![CDATA[iPhone exhibition]]></data>
+
+
+
+  <data name="cs_pano30_description"><![CDATA[iPhone Prototype]]></data>
+
+
+
+  <data name="cs_pano31_description"><![CDATA[iPod evolution]]></data>
+
+
+
+  <data name="cs_pano35_description"><![CDATA[First iPod exhibition]]></data>
+
+
+
+  <data name="cs_pano36_description"><![CDATA[Input devices evolution]]></data>
+
+
+
+  <data name="cs_pano39_description"><![CDATA[Graphics Tablet&nbsp;]]></data>
+
+
+
+  <data name="cs_pano47_description"><![CDATA[PowerMac&nbsp;]]></data>
+
+
+
+  <data name="cs_pano48_description"><![CDATA[Macbook &amp; Cube exhibition]]></data>
+
+
+
+  <data name="cs_pano49_description"><![CDATA[iMac &amp; MacBook exhibition]]></data>
+
+
+
+  <data name="cs_pano50_description"><![CDATA[iMac &amp; PowerBook exhibition]]></data>
+
+
+
+  <data name="cs_pano51_description"><![CDATA[Computers 1977-1980]]></data>
+
+
+
+  <data name="cs_pano52_description"><![CDATA[Mac 1997]]></data>
+
+
+
+  <data name="cs_pano54_description"><![CDATA[Mackintosh exhibition]]></data>
+
+
+
+  <data name="cs_pano63_description"><![CDATA[Printers &amp; PowerBooks]]></data>
+
+
+
+  <data name="cs_pano64_description"><![CDATA[Professional computers]]></data>
+
+
+
+  <data name="cs_pano65_description"><![CDATA[Macintosh family 1984-1994]]></data>
+
+
+
+  <data name="cs_pano66_description"><![CDATA[Macintosh family 1984-1994]]></data>
+
+
+
+  <data name="cs_pano67_description"><![CDATA[Macintosh family 1984-1994]]></data>
+
+
+
+  <data name="cs_pano68_description"><![CDATA[NeXT &amp; Macintosh 128k]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

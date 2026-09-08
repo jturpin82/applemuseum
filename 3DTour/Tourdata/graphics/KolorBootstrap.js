@@ -15,7 +15,12 @@ var kolorBrowserDetect = null;
 //start z-index value
 var kolorStartIndex = 4000;
 //target url for cross domains application
-var crossDomainTargetUrl = '/3DTour/';
+var crossDomainTargetUrl = (function(){
+	var s = document.currentScript ? document.currentScript.src : '';
+	if (!s) { var t = document.getElementsByTagName('script');
+		for (var i = t.length - 1; i >= 0; i--) { if (t[i].src.indexOf('KolorBootstrap.js') > -1) { s = t[i].src; break; } } }
+	return s ? s.replace(/3DTour\/Tourdata\/graphics\/KolorBootstrap\.js.*$/, '') + '3DTour/' : '/3DTour/';
+})();
 var tourLanguage;
 
 if ( debug ) {

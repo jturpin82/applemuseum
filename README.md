@@ -66,7 +66,8 @@ domaine, qui n'appartient pas à ce dépôt.
 fichiers restent joignables en direct par leur URL. Pour un accès réellement
 restreint, utiliser l'instance du Pi, derrière oauth2-proxy.
 
-Code par défaut : `applemuseum`. Pour le changer :
+Le code n'est volontairement pas indiqué ici : ce dépôt est public. Il se
+définit à la construction :
 
 ```bash
 python3 tools/build_pages.py --drop-top 2 --gate-pass "mon-code"

@@ -80,6 +80,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="6144" tiledimageheight="6144">
+          <front url="_42_2030/0/3/%v_%u.jpg" />
+          <right url="_42_2030/1/3/%v_%u.jpg" />
+          <back url="_42_2030/2/3/%v_%u.jpg" />
+          <left url="_42_2030/3/3/%v_%u.jpg" />
+          <up url="_42_2030/4/3/%v_%u.jpg" />
+          <down url="_42_2030/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="3072" tiledimageheight="3072">
           <front url="_42_2030/0/2/%v_%u.jpg" />
           <right url="_42_2030/1/2/%v_%u.jpg" />
@@ -416,6 +424,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="6144" tiledimageheight="6144">
+          <front url="_01_91/0/3/%v_%u.jpg" />
+          <right url="_01_91/1/3/%v_%u.jpg" />
+          <back url="_01_91/2/3/%v_%u.jpg" />
+          <left url="_01_91/3/3/%v_%u.jpg" />
+          <up url="_01_91/4/3/%v_%u.jpg" />
+          <down url="_01_91/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="3072" tiledimageheight="3072">
           <front url="_01_91/0/2/%v_%u.jpg" />
           <right url="_01_91/1/2/%v_%u.jpg" />
@@ -759,6 +775,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="6144" tiledimageheight="6144">
+          <front url="jobs_high_school_5261/0/3/%v_%u.jpg" />
+          <right url="jobs_high_school_5261/1/3/%v_%u.jpg" />
+          <back url="jobs_high_school_5261/2/3/%v_%u.jpg" />
+          <left url="jobs_high_school_5261/3/3/%v_%u.jpg" />
+          <up url="jobs_high_school_5261/4/3/%v_%u.jpg" />
+          <down url="jobs_high_school_5261/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="3072" tiledimageheight="3072">
           <front url="jobs_high_school_5261/0/2/%v_%u.jpg" />
           <right url="jobs_high_school_5261/1/2/%v_%u.jpg" />
@@ -896,6 +920,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="7168" tiledimageheight="7168">
+          <front url="_02_93/0/3/%v_%u.jpg" />
+          <right url="_02_93/1/3/%v_%u.jpg" />
+          <back url="_02_93/2/3/%v_%u.jpg" />
+          <left url="_02_93/3/3/%v_%u.jpg" />
+          <up url="_02_93/4/3/%v_%u.jpg" />
+          <down url="_02_93/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="3584" tiledimageheight="3584">
           <front url="_02_93/0/2/%v_%u.jpg" />
           <right url="_02_93/1/2/%v_%u.jpg" />
@@ -1050,6 +1082,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="3584" tiledimageheight="3584">
+          <front url="_03_94/0/2/%v_%u.jpg" />
+          <right url="_03_94/1/2/%v_%u.jpg" />
+          <back url="_03_94/2/2/%v_%u.jpg" />
+          <left url="_03_94/3/2/%v_%u.jpg" />
+          <up url="_03_94/4/2/%v_%u.jpg" />
+          <down url="_03_94/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="2048" tiledimageheight="2048">
           <front url="_03_94/0/1/%v_%u.jpg" />
           <right url="_03_94/1/1/%v_%u.jpg" />
@@ -1196,6 +1236,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="_00_2037/0/2/%v_%u.jpg" />
+          <right url="_00_2037/1/2/%v_%u.jpg" />
+          <back url="_00_2037/2/2/%v_%u.jpg" />
+          <left url="_00_2037/3/2/%v_%u.jpg" />
+          <up url="_00_2037/4/2/%v_%u.jpg" />
+          <down url="_00_2037/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
           <front url="_00_2037/0/1/%v_%u.jpg" />
           <right url="_00_2037/1/1/%v_%u.jpg" />
@@ -1307,6 +1355,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="1536" tiledimageheight="1536">
+          <front url="welcome_to_apple_mus_6730/0/1/%v_%u.jpg" />
+          <right url="welcome_to_apple_mus_6730/1/1/%v_%u.jpg" />
+          <back url="welcome_to_apple_mus_6730/2/1/%v_%u.jpg" />
+          <left url="welcome_to_apple_mus_6730/3/1/%v_%u.jpg" />
+          <up url="welcome_to_apple_mus_6730/4/1/%v_%u.jpg" />
+          <down url="welcome_to_apple_mus_6730/5/1/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1024" tiledimageheight="1024">
           <front url="welcome_to_apple_mus_6730/0/0/%v_%u.jpg" />
           <right url="welcome_to_apple_mus_6730/1/0/%v_%u.jpg" />
@@ -1598,6 +1654,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2048" tiledimageheight="2048">
+          <front url="apple_museum_6731/0/2/%v_%u.jpg" />
+          <right url="apple_museum_6731/1/2/%v_%u.jpg" />
+          <back url="apple_museum_6731/2/2/%v_%u.jpg" />
+          <left url="apple_museum_6731/3/2/%v_%u.jpg" />
+          <up url="apple_museum_6731/4/2/%v_%u.jpg" />
+          <down url="apple_museum_6731/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1024" tiledimageheight="1024">
           <front url="apple_museum_6731/0/1/%v_%u.jpg" />
           <right url="apple_museum_6731/1/1/%v_%u.jpg" />
@@ -1897,6 +1961,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="reception_6732/0/2/%v_%u.jpg" />
+          <right url="reception_6732/1/2/%v_%u.jpg" />
+          <back url="reception_6732/2/2/%v_%u.jpg" />
+          <left url="reception_6732/3/2/%v_%u.jpg" />
+          <up url="reception_6732/4/2/%v_%u.jpg" />
+          <down url="reception_6732/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
           <front url="reception_6732/0/1/%v_%u.jpg" />
           <right url="reception_6732/1/1/%v_%u.jpg" />
@@ -2026,6 +2098,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2048" tiledimageheight="2048">
+          <front url="apple_museum_6733/0/1/%v_%u.jpg" />
+          <right url="apple_museum_6733/1/1/%v_%u.jpg" />
+          <back url="apple_museum_6733/2/1/%v_%u.jpg" />
+          <left url="apple_museum_6733/3/1/%v_%u.jpg" />
+          <up url="apple_museum_6733/4/1/%v_%u.jpg" />
+          <down url="apple_museum_6733/5/1/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1024" tiledimageheight="1024">
           <front url="apple_museum_6733/0/0/%v_%u.jpg" />
           <right url="apple_museum_6733/1/0/%v_%u.jpg" />
@@ -2183,6 +2263,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="steven_s_food_6735/0/2/%v_%u.jpg" />
+          <right url="steven_s_food_6735/1/2/%v_%u.jpg" />
+          <back url="steven_s_food_6735/2/2/%v_%u.jpg" />
+          <left url="steven_s_food_6735/3/2/%v_%u.jpg" />
+          <up url="steven_s_food_6735/4/2/%v_%u.jpg" />
+          <down url="steven_s_food_6735/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
           <front url="steven_s_food_6735/0/1/%v_%u.jpg" />
           <right url="steven_s_food_6735/1/1/%v_%u.jpg" />
@@ -2312,6 +2400,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="stay_hungry__stay_fo_6734/0/2/%v_%u.jpg" />
+          <right url="stay_hungry__stay_fo_6734/1/2/%v_%u.jpg" />
+          <back url="stay_hungry__stay_fo_6734/2/2/%v_%u.jpg" />
+          <left url="stay_hungry__stay_fo_6734/3/2/%v_%u.jpg" />
+          <up url="stay_hungry__stay_fo_6734/4/2/%v_%u.jpg" />
+          <down url="stay_hungry__stay_fo_6734/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
           <front url="stay_hungry__stay_fo_6734/0/1/%v_%u.jpg" />
           <right url="stay_hungry__stay_fo_6734/1/1/%v_%u.jpg" />
@@ -2441,6 +2537,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="7680" tiledimageheight="7680">
+          <front url="_14_22/0/3/%v_%u.jpg" />
+          <right url="_14_22/1/3/%v_%u.jpg" />
+          <back url="_14_22/2/3/%v_%u.jpg" />
+          <left url="_14_22/3/3/%v_%u.jpg" />
+          <up url="_14_22/4/3/%v_%u.jpg" />
+          <down url="_14_22/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="4096" tiledimageheight="4096">
           <front url="_14_22/0/2/%v_%u.jpg" />
           <right url="_14_22/1/2/%v_%u.jpg" />
@@ -2878,6 +2982,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="8192" tiledimageheight="8192">
+          <front url="_15_24/0/3/%v_%u.jpg" />
+          <right url="_15_24/1/3/%v_%u.jpg" />
+          <back url="_15_24/2/3/%v_%u.jpg" />
+          <left url="_15_24/3/3/%v_%u.jpg" />
+          <up url="_15_24/4/3/%v_%u.jpg" />
+          <down url="_15_24/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="4096" tiledimageheight="4096">
           <front url="_15_24/0/2/%v_%u.jpg" />
           <right url="_15_24/1/2/%v_%u.jpg" />
@@ -3399,6 +3511,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="8192" tiledimageheight="8192">
+          <front url="_16_29/0/3/%v_%u.jpg" />
+          <right url="_16_29/1/3/%v_%u.jpg" />
+          <back url="_16_29/2/3/%v_%u.jpg" />
+          <left url="_16_29/3/3/%v_%u.jpg" />
+          <up url="_16_29/4/3/%v_%u.jpg" />
+          <down url="_16_29/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="4096" tiledimageheight="4096">
           <front url="_16_29/0/2/%v_%u.jpg" />
           <right url="_16_29/1/2/%v_%u.jpg" />
@@ -3852,6 +3972,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="5120" tiledimageheight="5120">
+          <front url="_17_30/0/3/%v_%u.jpg" />
+          <right url="_17_30/1/3/%v_%u.jpg" />
+          <back url="_17_30/2/3/%v_%u.jpg" />
+          <left url="_17_30/3/3/%v_%u.jpg" />
+          <up url="_17_30/4/3/%v_%u.jpg" />
+          <down url="_17_30/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="2560" tiledimageheight="2560">
           <front url="_17_30/0/2/%v_%u.jpg" />
           <right url="_17_30/1/2/%v_%u.jpg" />
@@ -4194,6 +4322,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="7680" tiledimageheight="7680">
+          <front url="_18_31/0/3/%v_%u.jpg" />
+          <right url="_18_31/1/3/%v_%u.jpg" />
+          <back url="_18_31/2/3/%v_%u.jpg" />
+          <left url="_18_31/3/3/%v_%u.jpg" />
+          <up url="_18_31/4/3/%v_%u.jpg" />
+          <down url="_18_31/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="4096" tiledimageheight="4096">
           <front url="_18_31/0/2/%v_%u.jpg" />
           <right url="_18_31/1/2/%v_%u.jpg" />
@@ -4665,6 +4801,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="5120" tiledimageheight="5120">
+          <front url="_19_35/0/3/%v_%u.jpg" />
+          <right url="_19_35/1/3/%v_%u.jpg" />
+          <back url="_19_35/2/3/%v_%u.jpg" />
+          <left url="_19_35/3/3/%v_%u.jpg" />
+          <up url="_19_35/4/3/%v_%u.jpg" />
+          <down url="_19_35/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="2560" tiledimageheight="2560">
           <front url="_19_35/0/2/%v_%u.jpg" />
           <right url="_19_35/1/2/%v_%u.jpg" />
@@ -5041,6 +5185,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="5120" tiledimageheight="5120">
+          <front url="_20_36/0/3/%v_%u.jpg" />
+          <right url="_20_36/1/3/%v_%u.jpg" />
+          <back url="_20_36/2/3/%v_%u.jpg" />
+          <left url="_20_36/3/3/%v_%u.jpg" />
+          <up url="_20_36/4/3/%v_%u.jpg" />
+          <down url="_20_36/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="2560" tiledimageheight="2560">
           <front url="_20_36/0/2/%v_%u.jpg" />
           <right url="_20_36/1/2/%v_%u.jpg" />
@@ -5246,6 +5398,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="_22_39/0/2/%v_%u.jpg" />
+          <right url="_22_39/1/2/%v_%u.jpg" />
+          <back url="_22_39/2/2/%v_%u.jpg" />
+          <left url="_22_39/3/2/%v_%u.jpg" />
+          <up url="_22_39/4/2/%v_%u.jpg" />
+          <down url="_22_39/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
           <front url="_22_39/0/1/%v_%u.jpg" />
           <right url="_22_39/1/1/%v_%u.jpg" />
@@ -5409,6 +5569,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="5120" tiledimageheight="5120">
+          <front url="_10_47/0/3/%v_%u.jpg" />
+          <right url="_10_47/1/3/%v_%u.jpg" />
+          <back url="_10_47/2/3/%v_%u.jpg" />
+          <left url="_10_47/3/3/%v_%u.jpg" />
+          <up url="_10_47/4/3/%v_%u.jpg" />
+          <down url="_10_47/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="2560" tiledimageheight="2560">
           <front url="_10_47/0/2/%v_%u.jpg" />
           <right url="_10_47/1/2/%v_%u.jpg" />
@@ -5769,6 +5937,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="5120" tiledimageheight="5120">
+          <front url="_11_48/0/3/%v_%u.jpg" />
+          <right url="_11_48/1/3/%v_%u.jpg" />
+          <back url="_11_48/2/3/%v_%u.jpg" />
+          <left url="_11_48/3/3/%v_%u.jpg" />
+          <up url="_11_48/4/3/%v_%u.jpg" />
+          <down url="_11_48/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="2560" tiledimageheight="2560">
           <front url="_11_48/0/2/%v_%u.jpg" />
           <right url="_11_48/1/2/%v_%u.jpg" />
@@ -6129,6 +6305,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="_12_49/0/2/%v_%u.jpg" />
+          <right url="_12_49/1/2/%v_%u.jpg" />
+          <back url="_12_49/2/2/%v_%u.jpg" />
+          <left url="_12_49/3/2/%v_%u.jpg" />
+          <up url="_12_49/4/2/%v_%u.jpg" />
+          <down url="_12_49/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
           <front url="_12_49/0/1/%v_%u.jpg" />
           <right url="_12_49/1/1/%v_%u.jpg" />
@@ -6344,6 +6528,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="_13_50/0/2/%v_%u.jpg" />
+          <right url="_13_50/1/2/%v_%u.jpg" />
+          <back url="_13_50/2/2/%v_%u.jpg" />
+          <left url="_13_50/3/2/%v_%u.jpg" />
+          <up url="_13_50/4/2/%v_%u.jpg" />
+          <down url="_13_50/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
           <front url="_13_50/0/1/%v_%u.jpg" />
           <right url="_13_50/1/1/%v_%u.jpg" />
@@ -6525,6 +6717,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="5120" tiledimageheight="5120">
+          <front url="_7_51/0/3/%v_%u.jpg" />
+          <right url="_7_51/1/3/%v_%u.jpg" />
+          <back url="_7_51/2/3/%v_%u.jpg" />
+          <left url="_7_51/3/3/%v_%u.jpg" />
+          <up url="_7_51/4/3/%v_%u.jpg" />
+          <down url="_7_51/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="2560" tiledimageheight="2560">
           <front url="_7_51/0/2/%v_%u.jpg" />
           <right url="_7_51/1/2/%v_%u.jpg" />
@@ -6713,6 +6913,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="5120" tiledimageheight="5120">
+          <front url="_8_52/0/3/%v_%u.jpg" />
+          <right url="_8_52/1/3/%v_%u.jpg" />
+          <back url="_8_52/2/3/%v_%u.jpg" />
+          <left url="_8_52/3/3/%v_%u.jpg" />
+          <up url="_8_52/4/3/%v_%u.jpg" />
+          <down url="_8_52/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="2560" tiledimageheight="2560">
           <front url="_8_52/0/2/%v_%u.jpg" />
           <right url="_8_52/1/2/%v_%u.jpg" />
@@ -6918,6 +7126,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="8704" tiledimageheight="8704">
+          <front url="_9_54/0/4/%v_%u.jpg" />
+          <right url="_9_54/1/4/%v_%u.jpg" />
+          <back url="_9_54/2/4/%v_%u.jpg" />
+          <left url="_9_54/3/4/%v_%u.jpg" />
+          <up url="_9_54/4/4/%v_%u.jpg" />
+          <down url="_9_54/5/4/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="4608" tiledimageheight="4608">
           <front url="_9_54/0/3/%v_%u.jpg" />
           <right url="_9_54/1/3/%v_%u.jpg" />
@@ -7183,6 +7399,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="8704" tiledimageheight="8704">
+          <front url="_1_63/0/4/%v_%u.jpg" />
+          <right url="_1_63/1/4/%v_%u.jpg" />
+          <back url="_1_63/2/4/%v_%u.jpg" />
+          <left url="_1_63/3/4/%v_%u.jpg" />
+          <up url="_1_63/4/4/%v_%u.jpg" />
+          <down url="_1_63/5/4/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="4608" tiledimageheight="4608">
           <front url="_1_63/0/3/%v_%u.jpg" />
           <right url="_1_63/1/3/%v_%u.jpg" />
@@ -7395,6 +7619,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="8704" tiledimageheight="8704">
+          <front url="_2_64/0/4/%v_%u.jpg" />
+          <right url="_2_64/1/4/%v_%u.jpg" />
+          <back url="_2_64/2/4/%v_%u.jpg" />
+          <left url="_2_64/3/4/%v_%u.jpg" />
+          <up url="_2_64/4/4/%v_%u.jpg" />
+          <down url="_2_64/5/4/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="4608" tiledimageheight="4608">
           <front url="_2_64/0/3/%v_%u.jpg" />
           <right url="_2_64/1/3/%v_%u.jpg" />
@@ -7608,6 +7840,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="4608" tiledimageheight="4608">
+          <front url="_3_65/0/3/%v_%u.jpg" />
+          <right url="_3_65/1/3/%v_%u.jpg" />
+          <back url="_3_65/2/3/%v_%u.jpg" />
+          <left url="_3_65/3/3/%v_%u.jpg" />
+          <up url="_3_65/4/3/%v_%u.jpg" />
+          <down url="_3_65/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="2560" tiledimageheight="2560">
           <front url="_3_65/0/2/%v_%u.jpg" />
           <right url="_3_65/1/2/%v_%u.jpg" />
@@ -7797,6 +8037,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="6656" tiledimageheight="6656">
+          <front url="_4_66/0/3/%v_%u.jpg" />
+          <right url="_4_66/1/3/%v_%u.jpg" />
+          <back url="_4_66/2/3/%v_%u.jpg" />
+          <left url="_4_66/3/3/%v_%u.jpg" />
+          <up url="_4_66/4/3/%v_%u.jpg" />
+          <down url="_4_66/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="3584" tiledimageheight="3584">
           <front url="_4_66/0/2/%v_%u.jpg" />
           <right url="_4_66/1/2/%v_%u.jpg" />
@@ -8002,6 +8250,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="5120" tiledimageheight="5120">
+          <front url="_5_67/0/3/%v_%u.jpg" />
+          <right url="_5_67/1/3/%v_%u.jpg" />
+          <back url="_5_67/2/3/%v_%u.jpg" />
+          <left url="_5_67/3/3/%v_%u.jpg" />
+          <up url="_5_67/4/3/%v_%u.jpg" />
+          <down url="_5_67/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="2560" tiledimageheight="2560">
           <front url="_5_67/0/2/%v_%u.jpg" />
           <right url="_5_67/1/2/%v_%u.jpg" />
@@ -8378,6 +8634,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="5120" tiledimageheight="5120">
+          <front url="_6_68/0/3/%v_%u.jpg" />
+          <right url="_6_68/1/3/%v_%u.jpg" />
+          <back url="_6_68/2/3/%v_%u.jpg" />
+          <left url="_6_68/3/3/%v_%u.jpg" />
+          <up url="_6_68/4/3/%v_%u.jpg" />
+          <down url="_6_68/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="2560" tiledimageheight="2560">
           <front url="_6_68/0/2/%v_%u.jpg" />
           <right url="_6_68/1/2/%v_%u.jpg" />
@@ -8600,6 +8864,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="7168" tiledimageheight="7168">
+          <front url="_31_2017/0/3/%v_%u.jpg" />
+          <right url="_31_2017/1/3/%v_%u.jpg" />
+          <back url="_31_2017/2/3/%v_%u.jpg" />
+          <left url="_31_2017/3/3/%v_%u.jpg" />
+          <up url="_31_2017/4/3/%v_%u.jpg" />
+          <down url="_31_2017/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="3584" tiledimageheight="3584">
           <front url="_31_2017/0/2/%v_%u.jpg" />
           <right url="_31_2017/1/2/%v_%u.jpg" />
@@ -8943,6 +9215,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="6656" tiledimageheight="6656">
+          <front url="_32_2018/0/3/%v_%u.jpg" />
+          <right url="_32_2018/1/3/%v_%u.jpg" />
+          <back url="_32_2018/2/3/%v_%u.jpg" />
+          <left url="_32_2018/3/3/%v_%u.jpg" />
+          <up url="_32_2018/4/3/%v_%u.jpg" />
+          <down url="_32_2018/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="3584" tiledimageheight="3584">
           <front url="_32_2018/0/2/%v_%u.jpg" />
           <right url="_32_2018/1/2/%v_%u.jpg" />
@@ -9362,6 +9642,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="6656" tiledimageheight="6656">
+          <front url="_33_2019/0/3/%v_%u.jpg" />
+          <right url="_33_2019/1/3/%v_%u.jpg" />
+          <back url="_33_2019/2/3/%v_%u.jpg" />
+          <left url="_33_2019/3/3/%v_%u.jpg" />
+          <up url="_33_2019/4/3/%v_%u.jpg" />
+          <down url="_33_2019/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="3584" tiledimageheight="3584">
           <front url="_33_2019/0/2/%v_%u.jpg" />
           <right url="_33_2019/1/2/%v_%u.jpg" />
@@ -9764,6 +10052,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="6656" tiledimageheight="6656">
+          <front url="_34_2020/0/3/%v_%u.jpg" />
+          <right url="_34_2020/1/3/%v_%u.jpg" />
+          <back url="_34_2020/2/3/%v_%u.jpg" />
+          <left url="_34_2020/3/3/%v_%u.jpg" />
+          <up url="_34_2020/4/3/%v_%u.jpg" />
+          <down url="_34_2020/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="3584" tiledimageheight="3584">
           <front url="_34_2020/0/2/%v_%u.jpg" />
           <right url="_34_2020/1/2/%v_%u.jpg" />
@@ -9952,6 +10248,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="6656" tiledimageheight="6656">
+          <front url="_35_2025/0/3/%v_%u.jpg" />
+          <right url="_35_2025/1/3/%v_%u.jpg" />
+          <back url="_35_2025/2/3/%v_%u.jpg" />
+          <left url="_35_2025/3/3/%v_%u.jpg" />
+          <up url="_35_2025/4/3/%v_%u.jpg" />
+          <down url="_35_2025/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="3584" tiledimageheight="3584">
           <front url="_35_2025/0/2/%v_%u.jpg" />
           <right url="_35_2025/1/2/%v_%u.jpg" />
@@ -10123,6 +10427,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="_36_2026/0/2/%v_%u.jpg" />
+          <right url="_36_2026/1/2/%v_%u.jpg" />
+          <back url="_36_2026/2/2/%v_%u.jpg" />
+          <left url="_36_2026/3/2/%v_%u.jpg" />
+          <up url="_36_2026/4/2/%v_%u.jpg" />
+          <down url="_36_2026/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
           <front url="_36_2026/0/1/%v_%u.jpg" />
           <right url="_36_2026/1/1/%v_%u.jpg" />
@@ -10252,6 +10564,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="_09_2046/0/2/%v_%u.jpg" />
+          <right url="_09_2046/1/2/%v_%u.jpg" />
+          <back url="_09_2046/2/2/%v_%u.jpg" />
+          <left url="_09_2046/3/2/%v_%u.jpg" />
+          <up url="_09_2046/4/2/%v_%u.jpg" />
+          <down url="_09_2046/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
           <front url="_09_2046/0/1/%v_%u.jpg" />
           <right url="_09_2046/1/1/%v_%u.jpg" />
@@ -10363,6 +10683,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="_10_2047/0/2/%v_%u.jpg" />
+          <right url="_10_2047/1/2/%v_%u.jpg" />
+          <back url="_10_2047/2/2/%v_%u.jpg" />
+          <left url="_10_2047/3/2/%v_%u.jpg" />
+          <up url="_10_2047/4/2/%v_%u.jpg" />
+          <down url="_10_2047/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
           <front url="_10_2047/0/1/%v_%u.jpg" />
           <right url="_10_2047/1/1/%v_%u.jpg" />
@@ -10492,6 +10820,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="_11_2048/0/2/%v_%u.jpg" />
+          <right url="_11_2048/1/2/%v_%u.jpg" />
+          <back url="_11_2048/2/2/%v_%u.jpg" />
+          <left url="_11_2048/3/2/%v_%u.jpg" />
+          <up url="_11_2048/4/2/%v_%u.jpg" />
+          <down url="_11_2048/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
           <front url="_11_2048/0/1/%v_%u.jpg" />
           <right url="_11_2048/1/1/%v_%u.jpg" />
@@ -10603,6 +10939,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="3584" tiledimageheight="3584">
+          <front url="_37_2028/0/2/%v_%u.jpg" />
+          <right url="_37_2028/1/2/%v_%u.jpg" />
+          <back url="_37_2028/2/2/%v_%u.jpg" />
+          <left url="_37_2028/3/2/%v_%u.jpg" />
+          <up url="_37_2028/4/2/%v_%u.jpg" />
+          <down url="_37_2028/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="2048" tiledimageheight="2048">
           <front url="_37_2028/0/1/%v_%u.jpg" />
           <right url="_37_2028/1/1/%v_%u.jpg" />
@@ -10766,6 +11110,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="6656" tiledimageheight="6656">
+          <front url="computers_2513/0/3/%v_%u.jpg" />
+          <right url="computers_2513/1/3/%v_%u.jpg" />
+          <back url="computers_2513/2/3/%v_%u.jpg" />
+          <left url="computers_2513/3/3/%v_%u.jpg" />
+          <up url="computers_2513/4/3/%v_%u.jpg" />
+          <down url="computers_2513/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="3584" tiledimageheight="3584">
           <front url="computers_2513/0/2/%v_%u.jpg" />
           <right url="computers_2513/1/2/%v_%u.jpg" />
@@ -10937,6 +11289,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="_12_2049/0/2/%v_%u.jpg" />
+          <right url="_12_2049/1/2/%v_%u.jpg" />
+          <back url="_12_2049/2/2/%v_%u.jpg" />
+          <left url="_12_2049/3/2/%v_%u.jpg" />
+          <up url="_12_2049/4/2/%v_%u.jpg" />
+          <down url="_12_2049/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
           <front url="_12_2049/0/1/%v_%u.jpg" />
           <right url="_12_2049/1/1/%v_%u.jpg" />
@@ -11066,6 +11426,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="6144" tiledimageheight="6144">
+          <front url="_36_2027/0/3/%v_%u.jpg" />
+          <right url="_36_2027/1/3/%v_%u.jpg" />
+          <back url="_36_2027/2/3/%v_%u.jpg" />
+          <left url="_36_2027/3/3/%v_%u.jpg" />
+          <up url="_36_2027/4/3/%v_%u.jpg" />
+          <down url="_36_2027/5/3/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="3072" tiledimageheight="3072">
           <front url="_36_2027/0/2/%v_%u.jpg" />
           <right url="_36_2027/1/2/%v_%u.jpg" />
@@ -11408,6 +11776,14 @@
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="steven_s_food_6736/0/2/%v_%u.jpg" />
+          <right url="steven_s_food_6736/1/2/%v_%u.jpg" />
+          <back url="steven_s_food_6736/2/2/%v_%u.jpg" />
+          <left url="steven_s_food_6736/3/2/%v_%u.jpg" />
+          <up url="steven_s_food_6736/4/2/%v_%u.jpg" />
+          <down url="steven_s_food_6736/5/2/%v_%u.jpg" />
+      </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
           <front url="steven_s_food_6736/0/1/%v_%u.jpg" />
           <right url="steven_s_food_6736/1/1/%v_%u.jpg" />
